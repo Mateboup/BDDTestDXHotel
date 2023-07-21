@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"As a user I want search a post","Search post in website","ERROR","2022-09-05T17:01:51.001-05:00[America/Bogota]","0.0","18.04"
+"Solución de cuestionario","Hallar el botón correcto según las coordenadas","PENDING","2023-06-15T15:53:16.813-05:00[America/Bogota]","0.0","32.96"
+"Validar que las tarifas cobrada a los clientes sea la correcta","Tarifar correctamente el hotel mas barato en la agencia de viaje DX Hotels","ERROR","2023-07-21T14:40:36.104-05:00[America/Bogota]","0.0","157.67"
+"Solución de cuestionario","Resolver cuestionario Evalart","FAILURE","2023-07-18T07:14:50.515-05:00[America/Bogota]","0.0","27.93"

@@ -1,0 +1,797 @@
+<html xmlns="http://www.w3.org/1999/xhtml" class="dxChrome dxWindowsPlatform dxWebKitFamily dxBrowserVersion-114 dxTheme-Metropolis dxTheme-Metropolis"><head id="Head1"><link rel="stylesheet" href="/RWA/DXHotels/DXR.axd?r=1_66,1_67,1_207,0_2211,0_2206,0_2313,0_2318,1_208,1_72,1_71-dSB8r">
+<!-- Google Tag Manager -->
+<script type="text/javascript" async="" src="https://www.google-analytics.com/plugins/ua/linkid.js"></script><script type="text/javascript" async="" src="//matomo.devexpress.com/matomo.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-TP4P4KW"></script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TP4P4KW');</script>
+<!-- End Google Tag Manager -->
+    <title>
+	DXHotels Demo | ASP.NET Controls by DevExpress
+</title><link href="Content/Styles.css" rel="stylesheet">
+    <script src="Content/jquery.min.js" type="text/javascript"></script>
+    <script src="Content/Scripts.js" type="text/javascript"></script>
+    
+<script src="https://matomo.devexpress.com/plugins/HeatmapSessionRecording/configs.php?idsite=3&amp;trackerid=FW1F8W&amp;url=https%3A%2F%2Fdemos.devexpress.com%2Frwa%2Fdxhotels%2FResults.aspx%3Flocation%3D8%26checkin%3D7-23-2023%26checkout%3D7-28-2023%26rooms%3D2%26adults%3D3%26children%3D2" async="" defer=""></script><style></style></head>
+<body><!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TP4P4KW"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <form method="post" action="./Results.aspx?location=8&amp;checkin=7-23-2023&amp;checkout=7-28-2023&amp;rooms=2&amp;adults=3&amp;children=2" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="6ZMxJbsbw8z/9CTjc5YNpsJz9weRHKWKa+DW0NKc6cQiT1UOnhII2wL89vOIxTx5vC9Ofs5NGPq7iOwbAaQdSX5FtxWg2YgCQpDwVKSPm4DE6oRLAMTgrq/KLxg71t7VEWtjppvoI7nrC5gXTa/D8FOjioQrPAwAkbPE0cRzj5tB/iW1kM/xsWeNwhCIaefi1nBG79HlfccpPrrtJpI0KrXALqaELbQPWrWdDq41/Odw3UH3bQaU6W9agJLGlXIYXtUnEREdLXQxVeafMeZ2GbBXNTapCy2uk9fCwFNgRELdTpyHq7jduSybcLqeK1myL7wTSqqtZhSPsEY1ADicsSYyxYdqSDYY3hCFof5/1wAVvnK6HoU6HcgHxdq9TXf2ASA22qyVxPvdfG95s1qcyjcArZZyHK6h8jJPQvLjYkz98lb9kVJjnvhhNammaj2KWBd0XT6JiuXIF1AADOhKoKUBFqjqK0UIqTMBSP7cO5hlU64KVfIWto+HHbEl3PLHuYggFo8M2hm5v4Mc7R6EuRLffAYE2rLKZR2KNvE+y7J1l0XXyHHt58dCPbxlHsBkOtkvPAj8olqlxDFbqEIPf3QfK1b2ri51oMxPGwDDjsVlG2Ot6ETL89j6KD2AUODC006oojzQ1ceGch1iSyQwgFZkn45mrMaMF0TvjuUrlbFmDiPMKuYedMNFMvpR9c+v7UxhUF7NQlceQQvERVnKVYGMt3wSyMVUegg80CxwT1ACeK/Z+oKyuAXL4e3nrQA+92/rbdoxdy7VWijoNc1Mv/JsZggwEV+jS9m9K8M/wPC+lLC6tFex9SVvirGMd6sK1SUeO2nPTfGwbJfNrGP80uZCA038LSz36bOo8qTbnPi/88U7t0E0WjiA+LILW0lotJcZr5d+yeG8C1LIRwFEg0LWG7/S4oBQaD2aJorm4iuvHGrBaOcEYOTKmmfmim+9MD08pQ+jvFT6SsoBn+amfOjG6lExWFshriIa81MojZNuzoq66c+7VPA9JIyJfjKLy8JFDFczSsmIRxWn/UyLPaPlRke1jXzozADIS0/YIaJ+UOf1aua3kmoMoUQ4PkjLivxETeCTS6CHPTOJ63qN8XCjoHuumo6gE8T74M9Z+MK5czkQhHVWtbwrwpHLcCRgT7+pS/C2O3OzylrdAaX6V1LRje7rOvlS8t628gGryzBm6EErMihdfwmCzgQyauqodHEV6/HBAZN2fYFutOp9AT4pw37rInL1kWg/Oa23MrUIg8zoM0iosHEEeNNEkN1XMT40OVYKrGEz/oS6kp5H06C51YpW9gcSGj+PT5ogr7N/vIYCtFsux/Ri0uKTBVGzyOL58TX/+taQJCXlAo2OB8ZcNx2zHpAy34GbU8OvsWzKD2iY/sTK/HM6Y93+iD9lbX1lsVUUBZnbXbo2SZ0QSC2oP1m3Ls8Uf5hSlPF8VZ1er6rVUdbq4lTUW2fn5T+rxn0gDgBGCIOkz6x4+kgfR0f6TxHw3TTuoo2b4PeSdKK16trhaUL5tpoJB+jYIKK0NSeainAXIBr1yqgyTVKBvhLveJN9LzYyMm1j+c6umsGfUAwhYGVUZ10aIyC/zA1H/N7X4T14tB54wQnnzjgqIA1ih6kjhDhtvNCHDUrREV7nWu59D3YQfAv/MpUO+Yn0bI47oW6FGtgw6pXoIRpPhTkNWrrs5bPwOlf4W/i7Gf1pt8qWA4HqAObWA9DBod+bhRV5grM8noPqgB47N8uqsWTToL3yzeFPVmrsNnsUhHMkFgI5NkSAYfuU2UBTtW4kbYYZIwTbHUxFQNwjKECXG/j5oI2Q/jdlWfcmmQFPL83P6qiP5dyc3SNACBKkmQFbSnU4wrQwoiYGL/yrQpX1G2YJGiTdCdSal8BQ3aqocum+uEPW63O/TLWPY+KbzJrcDKBqa9cdwes7AEGJk+6wZdWjW+DFoTxoPuAf4ipTJslzFSew//YRxJKBzyPjBa12hl1tXz9lZHeroPs5pY85iSS3tLjvRW9ZPeFec+fr/oiNoioBpS+F/gSgcjCQVSaA6oE8Yn6jHCFVGRMuqq+Htynyx16sEj3VZUAveViwHwe9kOJBXCyeXrS65ptKBzkJdXiBA/F8MUjtvXiTUuxDhdnMBYByJ54P5UvtUUNz8r2cyKE+nxzxMzmM7WZDIWpNzR5dkg5fgoV1+2MeRRyHORqV7LNQKxm0/Qm4rZLOG/XflJyMHaoV40JNaJBfnq0cRd1ndRCcv3dD5uEs1Cl18PmvhpWzoj1orqllS7xMbCY4IrKKgzTy2niU8KsPuRHhVf1hG+JetdgTbxLItgM3dDv1/3wmbnUwKdxF8HMTzBBlrfq0Tqfm1ZGcRffJiWtzUWy3gEHxGK9/JmSyg6n8H656m1lXxQ2CWXgJ24Hoetdpzjc5v5uwmsqZW1dJUc0/Tah982EfkPgdR9qezplTl794I1g0AhLa4uNMe/p1WkDhlERrDFdK+awbrqC1tRhQk31FJ4KAvkqcSbJQDUFVPl4J2gt5szIKD34mCJBRtpMK8VOfpWkyoLlB4T/H64IIipQdD0nIYdmwE4/Bew0w4ojAmz+2gPFZrkumKxi5lLY4kAv4Jv/nIU/dUY3MRLy/tSx7o89P4mPiOV+St62AtPL+EzBHc0YT7INdx857Y2uzRZSFLtZbAm6dpB2cLl4g5ls/EEy+ffcfJk7nz9DrTQI339DDkYVyHCj8a5vDsoy3T/nP7mR+T7B9vDKgB2Jshy9+a658okBLwEtGz8UgYknI1z493gq3QuulY5ewr3MQCw+r0/j75+4a7Oe3evl9w4xUEqnr4D9qUzq37fzDFSlbLAzzJpzGEau+qjlh6dtdZrhU3cdNIcHBqTgC+Awh1wLB/BN/D05y5J8YJo8DDqaixKkOeffoYNEhOvUR4fIQHObtt3+J+fkqBbc5/aFRqW8tAOywWarYgbXB/FRqEDZyEzyfJzPaeKjCznOfhme1CqcKvor9IFQ94dU3Xl5Rc3TSRFGXBLWT2HiH1x9QyD/V+es13i/Fhgt0mYHFYGc8dhr20ulFe/MQVLvHl1TPbXwRi+ll32t0jzeaT86bgj8tpHoKlo9CCiesqQZtqRB65b2oonxUQm3jaOUs5sXf0yFZ+Z7DRo1kaXns6Dj/tsDxOg6pu6GgfFUQJvneQr+6+9YanMfb4E5fggSOgcbuyIbRL6Qr3ekXRbZkh7T/mtwIWfRoAmYigJUgYZ0GbFBMNB5Te3QUToJ/cXwUsIzJE1zFBn8XnHfbd8dCeGt19ZHq0SaadY3gUP3BsK9JimAlhtKIzLeOrBeDyiB/XJcW85AzPhWhd0bF64PSveREngNjpIDm6S6/oxIfTBSVc6Wypgu5e6yUFk1IdZQGh634OZ6D0CMu300qfS0Af0A1YMDWE2L+ZBYQwbretUYt4hTydQMjR53m9InpCbYa19/0Ouayp1GuPhztJ+tnNFBcHQcvLQA6t9hNiOpbvseBb1kMSWkK/fg/pSXSC+yzMYiJdUi5BczhDP7o4Ow3wsu/4wCSlj8UwSBwA9p8Ya3NkpNg1poUIXflaLadcH3DaY0Q/0aEBYsjLuVbC7bL/jKsY6C1/EOGGXAyKTvCEk1RxqPa9WBVQ2/WkAqdqC7fC1N14OZXr7vMoWVWNzQBLYIHT1R1l9ShT/qtYZcVql3WjxlLWc5UEp4QYyRuk1Kj0C+nHYSKMlhiGSCo5yfPolmpgFShyprRzTIBrXgXEGJuZxwKl/dk9021FJsH2PQB6W3X6EGm9cxGaLsFr3yHEfeJMgSDEwcnn+1j6RakPMugBkTmQy+SXmVcrq4tToQHw0vawhetR/NJgj1/QsISutO1frUQNbPDv45wBItlvpongnhLMedTi+7jddTR7aQaWVDZXFfrXJo/ABV/YmJgYc6WiNRKsiPPFemfiGVpcYEcB931Ie2cGuyJxBiNhzmMfA4REAp6A8nWMcqi+hYNXdNgWcfaRA0FStU/5FRUzwJut47bs5GqsQ83+EJvYKPNb3SI2xHxUzBmYqTm4JBLeJzFpeYGDr0JwRzvYUya5CsM/g42pAdwB3k2OlcUnRWYtZPXd7vh+2q/KOwtNeTk4fS4oH2GazavTI0aJq7yLsPQSNNEfzzoBqxBxZBmmwDRKiOx8yxWB6o3ZefOylTzxCq4sRtDKoi17TRIUBo2x6+YTWFcNeI4wqU4F1Oel8ZQxrWbNgHbGm7q6VtGbQgFZ4fBc+tze3lTKLlInVCwpugbZMfhDdWADFbq2Pwzkdf4J2DhiZgSwcrZKw9Tg95ZtRRYKxY6t27KOR3F+GDb94g7JT1dZJUFDcqT5vkZ4EiSxHv3AZ73BokrjTpsRZuS0prhk5vsuPBwLzasMwRPbZYg5iK64Ia6motllGHAW1CACV4DXj0Hr69VJw8oJGOEoG987QrXLMBXBhLdcLAYHens5ssu9J/jyUaDl9sSK4OwtaFvPbZMRNx+AWE4Xy+gtclKCs6NWZltEIIADx5pkfL05+uxidd4n4ytq+/0zmrdF9HC3oywUAng8DWPl47KXNpoOH/+jTsWNBNxqLfBUC9Ows3N2qwbfOUIRD01C33JBjpVSUoz7abF2re5PwOC8b+q973GD36qvbPpM+Br+4kNxTJCLdgZeiT69VEugcgswfNuO7e37YPVT3j78APWMGbo0nQbgkxBRjpJBwSw/GkuMTgR6zpWuFsfdXJp/bWiTB+oLyxkNbwhbJS+vJqhvrdpgW+HOUrI9eUnwlaz6ilRXXGuRkt0YRn3Mr9wY7QUjaBGUQYlMOUIhu3B6zTocFyZPWNmHpaagsUJL9q/NhfIVJ0argTxA9jcJMt8m1Y6lOb7p1vwED90KBvlYKB3BeahIb+9TmWP8oUWARmLchUztdKNcT5g678ARE9hVAf4NVHBMnfYqn9CfArcygelraD7S//BQIMRwg+yuRvjwk22W0N2EooLeC+QDcdN4fEyyLVTznKC9J/tZ3pIQSof/E9XdtKIlua/iOmCm2JbKUw5jAmpew7rwFtTVLN/jCuCnjyDLucY5mHOQUTVP4sQeKMtlelnIwRTdyfK/CL+RvvKFIq/T5QcRY/RJtOOcbWzP0sZX1f0OQPMK7BFsB+kLtr89RiddEM7Au5NGZVZDHgi04wZ29yH9AbkYOXEyu/PG0vCQdzyfiQL4LnKpdwBKotydysWHzhgeVmi1X2tqjN06mVD5IWzSbdY916pghnXjQ+NlEuXR/fs2Zzm6W3s6emCL6m09UdKyAiyf+JRFpumHQN6XMvi5LzFbngzpenJn5g3sKrSAjwCuklF+l5Obr0tGJwpZylwv/nzmck1xkuA/txbaU/FBwEy+QjEHjRK5Zv8mm8gflKf2G1Hh0aF4myJBBMrAgFtMZzh76cgL3/orLfMYr/xa3zjPnT3LOqiskl8i22HuvImnE80a456rHJGo771vLg+Z8D2eBd6q3Zxlp2R2mu2Gn674hReNZyam/6lRaGkYOCnFQGLZjNZZLsZ708njcuVW6V1huLgZTfkTv7lwQicj6MttpMEX/WkeUG8THFRKS7AOppg6pDBEvz2q2434boP2zsY86JiSXDVxL3sLWQ9ZAYtiWkHDAUUGf57UzPZ0Cg/SXtaPXoh89oN/9sO6Lpt7M7JWqOD63bMx383u7I/rlmLP2PQS74+7HORJHbSjVIZPHbcf+TXPnVts9HVKZbfXw+0fXZRn79re+XE0iDbWKxH4Hsgoxf5eUutbIzPryeepx1Kq6tRVr4tzpCqkayjzreYSp4nkXvw38/Gajnm5BR4NyPrWzTHyM7Dg6u2rE5BONHq/uAGttPb2j8CnVxIIPI5c5XRReodTOHeLutuu1nUF3kQhVHJ2uocLmeZjWYdaYVsXyJVdFN2Rh0U0T8MDqtk5vilUgCgs4Gja4vDbvKCg7mEofsLgeZn4VLjHM6eBsCHgHthQch6o7w7Yr2XefubzULPvZNX4R3FM5yBrcuFp2mIHK4HWKSTZBiy42zuFrqVLbr738VqwpF1Or2Mo0Fhmayyz0EoUEsGjbdNDv1qVXnqWpuzU9Ff5i8u7YGPpaJUWnNX4shtVYmAA6pcR6xlSlQwiJ1ZmDMnm/pzXvRUYcl/gxS1XQKnfS8dQsGSnHhT1QilbfcXnxofhkZ0v085p0Jgn9ixxy+DDTa6JfdVGGNDWXnOJUB8lZ6SZYrY1FZn7TbmH7jph/l8442KWGu0zpTmapBvkEHbaGZM99iuCofM52cGSlpMCsyxZJByJnpBdmmZjYspHGCmp2Je9C7m5b53Ce/CsEhTM/5aeYooR/O+D/DLyrUp5lX4W/IqI8kJx33W7R+af7RAwPdCffhsBkBv9GgRNZXxA91MrnErY5JtCBFaLR+o2jtir8eP6YM+k40QyggTgWABRJTQjr8UJ9TZBklpNVh0FCD/0R4V3mGIda3Av2iCSgxh23Jn3vo1LTU3k6tTLKxpWRtAtQhG2OwhCr2PtpDcrLgNMSNhunZTIyB37PmNblin1yKs6+03StIFIjvE/cUR5hXyNJEcRcYEx191hz0S1V03kmlesY25WIHNsPFI42qqZf8NvG43DCqVZyQg4czE766kU4OKyH0EVR6AA/E4g4VuFCz/GLauHeTd243TIRAxCc6izmGXeNIlj5t9rMg/X3z28tmrX2xppCezc8mYNTnMnasgIAIfXktWVhYP25leFA==">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/RWA/DXHotels/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZDHQcqNjtOKyrzSrEahrGsrTb7EN9PPQJuqwUuQuJetGI06YeQ2&amp;t=638188629102382993" type="text/javascript"></script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="E19CC5F6">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="a20FWHvdgu8GC8te7JIwA7mN32DHCwxYfXiyIqPvKIASqdRpU1aueofaQxa7uEeK6D3NGtlDrX73mn5Oi5UNivGr9L8QuKfVNiO3qkzwTtUzo5/1v1hIjjuNO8bqCqdWWNh4bLmOgUfgKTgpCoXar4mdCJKiFlcR1vFXgU2H1G8wjXnE">
+</div>
+        <div class="page">
+            
+<script type="text/javascript">
+    function hideLoginPanel(s, e) {
+        pcLogin.Hide();
+    }
+    function showLoginPanel(s, e) {
+        pcLogin.Show();
+    }
+</script>
+<div class="header">
+    <div class="content-column">
+        <div class="logo">
+            <script id="dxis_802159428" src="/RWA/DXHotels/DXR.axd?r=1_9,1_10,1_253,1_21,1_62,1_11,1_12,1_13,1_180,1_15,1_39,1_58,1_181,1_182,1_201,1_19,1_20,1_188,1_184,1_191,1_189,1_37,1_29,1_48,1_202-cSB8r"></script><a class="dxeHyperlink_Metropolis" id="HeaderControl_hlLogo" href="Default.aspx"><img src="Content/Images/Header.png" alt=""></a>
+        </div>
+        <div class="buttons">
+            <div class="dxbButton_Metropolis orangeButton dxbButtonSys dxbTSys" id="HeaderControl_Contact" style="font-size:14px;height:38px;width:107px;-webkit-user-select:none;">
+	<div class="dxb" id="HeaderControl_Contact_CD">
+		<div class="dxb-hbc">
+			<input id="HeaderControl_Contact_I" class="dxb-hb" value="Contact Us" type="submit" name="ctl00$HeaderControl$Contact">
+		</div><span class="dx-vam">Contact Us</span>
+	</div>
+</div><script id="dxss_382407742" data-executed="true">
+<!--
+ASPx.AddHoverItems('HeaderControl_Contact',[[['dxbButtonHover_Metropolis'],[''],[''],['','TC']]]);
+ASPx.AddPressedItems('HeaderControl_Contact',[[['dxbButtonPressed_Metropolis'],[''],[''],['','TC']]]);
+ASPx.AddSelectedItems('HeaderControl_Contact',[[['dxbf'],[''],['CD']]]);
+ASPx.InitializeSVGSprite();
+ASPx.FillDocumentElementDXThemeCssClassName("Metropolis");
+ASPx.createControl(ASPxClientButton,'HeaderControl_Contact','',{'uniqueID':'ctl00$HeaderControl$Contact'});
+
+//-->
+</script>
+            <div class="dxbButton_Metropolis orangeButton dxbButtonSys dxbTSys" id="HeaderControl_Login" style="font-size:14px;height:38px;width:75px;-webkit-user-select:none;">
+	<div class="dxb" id="HeaderControl_Login_CD">
+		<div class="dxb-hbc">
+			<input id="HeaderControl_Login_I" class="dxb-hb" value="Login" type="submit" name="ctl00$HeaderControl$Login">
+		</div><span class="dx-vam">Login</span>
+	</div>
+</div><script id="dxss_1950946231" data-executed="true">
+<!--
+ASPx.AddHoverItems('HeaderControl_Login',[[['dxbButtonHover_Metropolis'],[''],[''],['','TC']]]);
+ASPx.AddPressedItems('HeaderControl_Login',[[['dxbButtonPressed_Metropolis'],[''],[''],['','TC']]]);
+ASPx.AddDisabledItems('HeaderControl_Login',[[['dxbDisabled_Metropolis'],[''],[''],['','TC']]]);
+ASPx.AddSelectedItems('HeaderControl_Login',[[['dxbf'],[''],['CD']]]);
+ASPx.createControl(ASPxClientButton,'HeaderControl_Login','btnLogin',{'uniqueID':'ctl00$HeaderControl$Login'},{'Click':showLoginPanel});
+
+//-->
+</script>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <input type="hidden" name="ctl00$HeaderControl$LogonControlState" id="HeaderControl_LogonControl_State" value="{&amp;quot;windowsState&amp;quot;:&amp;quot;0:0:-1:0:0:0:-10000:-10000:1:0:0:0&amp;quot;}"><div id="HeaderControl_LogonControl_PW-1" class="dxpcLite_Metropolis dxpclW" style="width:608px;z-index:10000;display:none;visibility:hidden;">
+	<div class="dxpc-mainDiv dxpc-shadow">
+		<div class="dxpc-contentWrapper">
+			<div class="dxpc-content" id="HeaderControl_LogonControl_PWC-1">
+				
+                <div class="loginPopup">
+                    <div class="title">
+                        LOGIN FORM
+                    </div>
+                    <div class="formLayout">
+                        <div class="dxflFormLayout_Metropolis" id="HeaderControl_LogonControl_LoginFormLayout">
+					<table class="dxflGroup_Metropolis dxflGroupSys dxflAGSys" style="border-collapse:separate;">
+						<tbody><tr>
+							<td id="HeaderControl_LogonControl_LoginFormLayout_0" class="dxflGroupCell_Metropolis" style="padding-top:3px;padding-bottom:3px;"><div class="dxflNestedControlCell_Metropolis dxflCLLSys dxflItemSys dxflTextEditItemSys dxflItem_Metropolis" style="width:328px;">
+								
+                                            <table id="HeaderControl_LogonControl_LoginFormLayout_txtEmail_ET" class="dxeValidDynEditorTable dxeRoot_Metropolis" style="width:100%;" errorframe="errorFrame">
+									<tbody><tr>
+										<td id="HeaderControl_LogonControl_LoginFormLayout_txtEmail_CC" style="width:100%;"><input type="hidden" name="ctl00$HeaderControl$LogonControl$LoginFormLayout$txtEmail$State" id="HeaderControl_LogonControl_LoginFormLayout_txtEmail_State" value="{&amp;quot;rawValue&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;validationState&amp;quot;:&amp;quot;&amp;quot;}"><table class="dxeTextBoxSys dxeTextBox_Metropolis editor dxeTextBoxDefaultWidthSys dxeNullText_Metropolis dxh1" id="HeaderControl_LogonControl_LoginFormLayout_txtEmail" style="height:30px;width:100%;" savedspellcheck="[object Object]" spellcheck="false">
+											<tbody><tr>
+												<td class="dxic" style="width:100%;"><input class="dxeEditArea_Metropolis dxeEditAreaSys dxh1" id="HeaderControl_LogonControl_LoginFormLayout_txtEmail_I" onchange="ASPx.EValueChanged('HeaderControl_LogonControl_LoginFormLayout_txtEmail')" value="Email" type="text" savedspellcheck="[object Object]" spellcheck="false" autocomplete="off" name="ctl00$HeaderControl$LogonControl$LoginFormLayout$txtEmail"></td>
+											</tr>
+										</tbody></table></td>
+									</tr>
+								</tbody></table><script id="dxss_679260531" data-executed="true">
+<!--
+ASPx.createControl(ASPxClientTextBox,'HeaderControl_LogonControl_LoginFormLayout_txtEmail','',{'uniqueID':'ctl00$HeaderControl$LogonControl$LoginFormLayout$txtEmail','scStates':6,'scPostfix':'Metropolis','stateObject':{'rawValue':''},'validationGroup':'login','customValidationEnabled':true,'isValid':true,'errorText':'Invalid value','validationPatterns':[new ASPx.RequiredFieldValidationPattern('*'),new ASPx.RegularExpressionValidationPattern('Invalid value', '\\w+([-+.\']\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*')],'isErrorFrameRequired':true,'display':'Dynamic','errorDisplayMode':'n','controlCellStyles':{'cssClass':'dxeErrorFrameWithoutError_Metropolis dxeErrorFrameSys dxeControlsCell_Metropolis','style':'width:100%;'},'nullText':'Email','nullTextDisplayMode':'UnfocusedAndFocused','nullTextOnFocusCssText':'font-style: italic;'},null,null,{'decorationStyles':[{'key':'I','className':'dxeInvalid_Metropolis','cssText':''},{'key':'F','className':'dxeFocused_Metropolis','cssText':''},{'key':'N','className':'dxeNullText_Metropolis','cssText':'font-style:italic;'}]});
+
+//-->
+</script>
+                                        
+							</div></td>
+						</tr><tr>
+							<td id="HeaderControl_LogonControl_LoginFormLayout_1" class="dxflGroupCell_Metropolis" style="padding-top:3px;padding-bottom:3px;"><div class="dxflNestedControlCell_Metropolis dxflCLLSys dxflItemSys dxflTextEditItemSys dxflItem_Metropolis" style="width:328px;">
+								
+                                            <table id="HeaderControl_LogonControl_LoginFormLayout_txtPassword_ET" class="dxeValidDynEditorTable dxeRoot_Metropolis" style="width:100%;" errorframe="errorFrame">
+									<tbody><tr>
+										<td id="HeaderControl_LogonControl_LoginFormLayout_txtPassword_CC" style="width:100%;"><input type="hidden" name="ctl00$HeaderControl$LogonControl$LoginFormLayout$txtPassword$State" id="HeaderControl_LogonControl_LoginFormLayout_txtPassword_State" value="{&amp;quot;rawValue&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;validationState&amp;quot;:&amp;quot;&amp;quot;}"><table class="dxeTextBoxSys dxeTextBox_Metropolis editor dxeTextBoxDefaultWidthSys dxeNullText_Metropolis dxh1" id="HeaderControl_LogonControl_LoginFormLayout_txtPassword" style="height:30px;width:100%;" savedspellcheck="[object Object]" spellcheck="false">
+											<tbody><tr>
+												<td class="dxic" style="width:100%;"><input class="dxeEditArea_Metropolis dxeEditAreaSys dxh1" id="HeaderControl_LogonControl_LoginFormLayout_txtPassword_I" onchange="ASPx.EValueChanged('HeaderControl_LogonControl_LoginFormLayout_txtPassword')" type="password" savedspellcheck="[object Object]" spellcheck="false" saveddisplay="[object Object]" autocomplete="off" style="display: none;" name="ctl00$HeaderControl$LogonControl$LoginFormLayout$txtPassword"><input class="dxeFNTextSys dxh2" tabindex="-1" style="display: none; padding: 0px 1px 0px 0px; border-collapse: separate; border-width: 0px;"><input class="dxeEditArea_Metropolis dxeEditAreaSys dxh1" id="HeaderControl_LogonControl_LoginFormLayout_txtPassword_I_CLND" type="text" tabindex="0" saveddisplay="[object Object]" style=""></td>
+											</tr>
+										</tbody></table></td>
+									</tr>
+								</tbody></table><script id="dxss_656697918" data-executed="true">
+<!--
+ASPx.createControl(ASPxClientTextBox,'HeaderControl_LogonControl_LoginFormLayout_txtPassword','',{'uniqueID':'ctl00$HeaderControl$LogonControl$LoginFormLayout$txtPassword','scStates':6,'scPostfix':'Metropolis','stateObject':{'rawValue':''},'validationGroup':'login','customValidationEnabled':true,'isValid':true,'errorText':'Invalid value','validationPatterns':[new ASPx.RequiredFieldValidationPattern('*')],'isErrorFrameRequired':true,'display':'Dynamic','errorDisplayMode':'n','controlCellStyles':{'cssClass':'dxeErrorFrameWithoutError_Metropolis dxeErrorFrameSys dxeControlsCell_Metropolis','style':'width:100%;'},'nullText':'Password','nullTextDisplayMode':'UnfocusedAndFocused','nullTextOnFocusCssText':'font-style: italic;'},null,null,{'decorationStyles':[{'key':'I','className':'dxeInvalid_Metropolis','cssText':''},{'key':'F','className':'dxeFocused_Metropolis','cssText':''},{'key':'N','className':'dxeNullText_Metropolis','cssText':'font-style:italic;'}]});
+
+//-->
+</script>
+                                        
+							</div></td>
+						</tr><tr>
+							<td id="HeaderControl_LogonControl_LoginFormLayout_2" class="dxflGroupCell_Metropolis" style="padding-top:22px;padding-bottom:6px;"><div class="dxflNestedControlCell_Metropolis dxflCLLSys dxflItemSys dxflCaptchaItemSys dxflItem_Metropolis" style="width:328px;">
+								
+                                            <table id="HeaderControl_LogonControl_LoginFormLayout_Captcha_LP" class="dxcaLoadingPanel_Metropolis" style="left:0px;top:0px;z-index:30000;display:none;">
+									<tbody><tr>
+										<td class="dx"><img class="dxlp-loadingImage dxlp-imgPosLeft" src="/RWA/DXHotels/DXR.axd?r=1_87-cSB8r" alt="" style="vertical-align:middle;"></td>
+									</tr>
+								</tbody></table><div class="dxcaControl_Metropolis captcha" id="HeaderControl_LogonControl_LoginFormLayout_Captcha">
+									<table>
+										<tbody><tr>
+											<td><div id="HeaderControl_LogonControl_LoginFormLayout_Captcha_IMGD" class="dxca-imageDiv" style="background-color:#FF8800;border-width:0px;width:328px;line-height:0px;font-size:0px;">
+												<img id="HeaderControl_LogonControl_LoginFormLayout_Captcha_IMG" src="/RWA/DXHotels/DXB.axd?location=8&amp;checkin=7-23-2023&amp;checkout=7-28-2023&amp;rooms=2&amp;adults=3&amp;children=2&amp;DXCache=b8d5843b-461e-d783-200d-f33f48826c7d" alt="Captcha image" style="height:100px;width:328px;">
+											</div></td><td class="dxcaRefreshButtonCell_Metropolis" style="vertical-align:Bottom;padding-left:16px;padding-right:0px;padding-top:0px;padding-bottom:0px;"><a class="dxcaRefreshButton_Metropolis" id="HeaderControl_LogonControl_LoginFormLayout_Captcha_RB" href="javascript:;"><img id="HeaderControl_LogonControl_LoginFormLayout_Captcha_RIMG" class="dx-vam dxEditors_caRefresh_Metropolis" src="/RWA/DXHotels/DXR.axd?r=1_87-cSB8r" alt="Show another code" style="margin-right:4px;"><span id="HeaderControl_LogonControl_LoginFormLayout_Captcha_RTS" class="dxcaRefreshButtonText_Metropolis" style="vertical-align:middle;">Show another code</span></a></td>
+										</tr><tr>
+											<td class="dxcaTextBoxCellNoIndent_Metropolis" style="padding-top:3px;padding-bottom:4px;"><table id="HeaderControl_LogonControl_LoginFormLayout_Captcha_TB_ET" class="dxeValidStEditorTable dxeRoot_Metropolis">
+												<tbody><tr>
+													<td id="HeaderControl_LogonControl_LoginFormLayout_Captcha_TB_CC" class="dxeErrorFrame_Metropolis dxeErrorFrameSys dxeNoBorderBottom dxeControlsCell_Metropolis"><input type="hidden" name="ctl00$HeaderControl$LogonControl$LoginFormLayout$Captcha$TB$State" id="HeaderControl_LogonControl_LoginFormLayout_Captcha_TB_State" value="{&amp;quot;rawValue&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;validationState&amp;quot;:&amp;quot;&amp;quot;}"><table class="dxeTextBoxSys dxeTextBox_Metropolis textBox editor dxeTextBoxDefaultWidthSys dxeNullText_Metropolis dxh1" id="HeaderControl_LogonControl_LoginFormLayout_Captcha_TB" style="width:328px;" savedspellcheck="[object Object]" spellcheck="false">
+														<tbody><tr>
+															<td class="dxic" style="width:100%;"><input class="dxeEditArea_Metropolis dxeEditAreaSys dxh1" id="HeaderControl_LogonControl_LoginFormLayout_Captcha_TB_I" onchange="ASPx.EValueChanged('HeaderControl_LogonControl_LoginFormLayout_Captcha_TB')" value="Type the code" type="text" savedspellcheck="[object Object]" spellcheck="false" autocomplete="off" name="ctl00$HeaderControl$LogonControl$LoginFormLayout$Captcha$TB"></td>
+														</tr>
+													</tbody></table></td>
+												</tr><tr>
+													<td id="HeaderControl_LogonControl_LoginFormLayout_Captcha_TB_EC" class="dxeErrorCell_Metropolis dxeErrorFrame_Metropolis dxeErrorFrameSys dxeErrorCellSys dxeNoBorderTop" style="visibility:hidden;white-space:nowrap;">The submitted code is incorrect</td>
+												</tr>
+											</tbody></table><script id="dxss_2057801238" data-executed="true">
+<!--
+ASPx.createControl(ASPxClientTextBox,'HeaderControl_LogonControl_LoginFormLayout_Captcha_TB','',{'uniqueID':'ctl00$HeaderControl$LogonControl$LoginFormLayout$Captcha$TB','scStates':6,'scPostfix':'Metropolis','stateObject':{'rawValue':''},'validationGroup':'login','customValidationEnabled':true,'isValid':true,'errorText':'The submitted code is incorrect','validateOnLeave':false,'isErrorFrameRequired':true,'errorDisplayMode':'t','nullText':'Type the code','nullTextDisplayMode':'UnfocusedAndFocused','nullTextOnFocusCssText':'font-style: italic;','errorCellPosition':'Bottom','autoCompleteAttribute':{'name':'autocomplete','value':'off'},'isCaptchaTextBox':true},null,null,{'decorationStyles':[{'key':'I','className':'dxeInvalid_Metropolis','cssText':''},{'key':'F','className':'dxeFocused_Metropolis','cssText':''},{'key':'N','className':'dxeNullText_Metropolis','cssText':'font-style:italic;'}]});
+
+//-->
+</script></td><td></td>
+										</tr>
+									</tbody></table>
+								</div><script id="dxss_175883291" data-executed="true">
+<!--
+ASPx.AddHoverItems('HeaderControl_LogonControl_LoginFormLayout_Captcha',[[['dxcaRefreshButtonHover_Metropolis'],[''],['RB']]]);
+ASPx.AddDisabledItems('HeaderControl_LogonControl_LoginFormLayout_Captcha',[[['dxcaDisabledRefreshButton_Metropolis'],[''],['RB']],[['dxcaDisabledRefreshButtonText_Metropolis'],[''],['RTS']]]);
+ASPx.createControl(ASPxClientCaptcha,'HeaderControl_LogonControl_LoginFormLayout_Captcha','',{'callBack':function(arg) { WebForm_DoCallback('ctl00$HeaderControl$LogonControl$LoginFormLayout$Captcha',arg,ASPx.Callback,'HeaderControl_LogonControl_LoginFormLayout_Captcha',ASPx.CallbackError,true); },'uniqueID':'ctl00$HeaderControl$LogonControl$LoginFormLayout$Captcha'});
+
+//-->
+</script>
+                                        
+							</div></td>
+						</tr>
+					</tbody></table>
+				</div><script id="dxss_2078971733" data-executed="true">
+<!--
+ASPx.createControl(ASPxClientFormLayout,'HeaderControl_LogonControl_LoginFormLayout','',{'uniqueID':'ctl00$HeaderControl$LogonControl$LoginFormLayout'});
+
+//-->
+</script>
+                    </div>
+                    <div class="buttons">
+                        <div class="buttonsContainer">
+                            <div class="dxbButton_Metropolis dxbButtonSys dxbTSys" id="HeaderControl_LogonControl_btnLoginNow" style="background-color:#F7F7F7;font-size:14px;height:40px;width:110px;-webkit-user-select:none;">
+					<div class="dxb" id="HeaderControl_LogonControl_btnLoginNow_CD">
+						<div class="dxb-hbc">
+							<input id="HeaderControl_LogonControl_btnLoginNow_I" class="dxb-hb" value="Login" type="submit" name="ctl00$HeaderControl$LogonControl$btnLoginNow">
+						</div><span class="dx-vam">Login</span>
+					</div>
+				</div><script id="dxss_524745782" data-executed="true">
+<!--
+ASPx.AddHoverItems('HeaderControl_LogonControl_btnLoginNow',[[['dxbButtonHover_Metropolis'],['background-color:#F88E1D;'],[''],['','TC']]]);
+ASPx.AddPressedItems('HeaderControl_LogonControl_btnLoginNow',[[['dxbButtonPressed_Metropolis'],[''],[''],['','TC']]]);
+ASPx.AddDisabledItems('HeaderControl_LogonControl_btnLoginNow',[[['dxbDisabled_Metropolis'],[''],[''],['','TC']]]);
+ASPx.AddSelectedItems('HeaderControl_LogonControl_btnLoginNow',[[['dxbf'],[''],['CD']]]);
+ASPx.createControl(ASPxClientButton,'HeaderControl_LogonControl_btnLoginNow','',{'autoPostBack':true,'uniqueID':'ctl00$HeaderControl$LogonControl$btnLoginNow','serverEvents':['Click'],'validationGroup':'login'});
+
+//-->
+</script>
+                            <div class="dxbButton_Metropolis dxbButtonSys dxbTSys" id="HeaderControl_LogonControl_btnCancelLogin" style="background-color:#F7F7F7;font-size:14px;height:40px;width:110px;-webkit-user-select:none;">
+					<div class="dxb" id="HeaderControl_LogonControl_btnCancelLogin_CD">
+						<div class="dxb-hbc">
+							<input id="HeaderControl_LogonControl_btnCancelLogin_I" class="dxb-hb" value="Cancel" type="submit" name="ctl00$HeaderControl$LogonControl$btnCancelLogin">
+						</div><span class="dx-vam">Cancel</span>
+					</div>
+				</div><script id="dxss_1178705665" data-executed="true">
+<!--
+ASPx.AddHoverItems('HeaderControl_LogonControl_btnCancelLogin',[[['dxbButtonHover_Metropolis'],['background-color:#F88E1D;'],[''],['','TC']]]);
+ASPx.AddPressedItems('HeaderControl_LogonControl_btnCancelLogin',[[['dxbButtonPressed_Metropolis'],[''],[''],['','TC']]]);
+ASPx.AddDisabledItems('HeaderControl_LogonControl_btnCancelLogin',[[['dxbDisabled_Metropolis'],[''],[''],['','TC']]]);
+ASPx.AddSelectedItems('HeaderControl_LogonControl_btnCancelLogin',[[['dxbf'],[''],['CD']]]);
+ASPx.createControl(ASPxClientButton,'HeaderControl_LogonControl_btnCancelLogin','',{'uniqueID':'ctl00$HeaderControl$LogonControl$btnCancelLogin'},{'Click':function(s, e) { hideLoginPanel(); }});
+
+//-->
+</script>
+                        </div>
+                    </div>
+                </div>
+		    
+			</div>
+		</div>
+	</div>
+</div><div id="HeaderControl_LogonControl_DXPWMB-1" class="dxpcModalBackLite_Metropolis" style="z-index:9999;">
+
+</div><table id="HeaderControl_LogonControl_LP" class="dxpcLoadingPanel_Metropolis dxlpLoadingPanel_Metropolis" style="left:0px;top:0px;z-index:30000;display:none;">
+	<tbody><tr>
+		<td class="dx" style="padding-right:0px;"><img class="dxlp-loadingImage dxlp-imgPosLeft" src="/RWA/DXHotels/DXR.axd?r=1_87-cSB8r" alt="" style="vertical-align:middle;"></td><td class="dx" style="padding-left:0px;"><span id="HeaderControl_LogonControl_TL">Loading…</span></td>
+	</tr>
+</tbody></table><div id="HeaderControl_LogonControl_LD" class="dxpcLoadingDiv_Metropolis dxlpLoadingDiv_Metropolis dx-ft" style="left:0px;top:0px;z-index:29999;display:none;position:absolute;">
+
+</div><script id="dxss_1537368194" data-executed="true">
+<!--
+ASPx.createControl(ASPxClientPopupControl,'HeaderControl_LogonControl','pcLogin',{'callBack':function(arg) { WebForm_DoCallback('ctl00$HeaderControl$LogonControl',arg,ASPx.Callback,'HeaderControl_LogonControl',ASPx.CallbackError,true); },'uniqueID':'ctl00$HeaderControl$LogonControl','popupAnimationType':'fade','popupHorizontalAlign':'WindowCenter','popupVerticalAlign':'WindowCenter','isPopupPositionCorrectionOn':false,'modal':true,'width':608,'widthFromServer':true,'hideBodyScrollWhenModal':false});
+
+//-->
+</script>
+    <input type="hidden" name="ctl00$HeaderControl$ContactUsControlState" id="HeaderControl_ContactUsControl_State" value="{&amp;quot;windowsState&amp;quot;:&amp;quot;0:0:-1:0:0:0:-10000:-10000:1:0:0:0&amp;quot;}"><div id="HeaderControl_ContactUsControl_PW-1" class="dxpcLite_Metropolis dxpclW" style="width:460px;z-index:10000;display:none;visibility:hidden;">
+	<div class="dxpc-mainDiv dxpc-shadow">
+		<div class="dxpc-contentWrapper">
+			<div class="dxpc-content" id="HeaderControl_ContactUsControl_PWC-1">
+				
+			    <div class="contactUs">
+                    <h2 class="title">Your Next Great Web App Starts Here</h2>
+                    <br>
+                    <div class="text">
+                        To learn more about DevExpress Subscriptions and obtain pricing
+                        <br>
+                        information, visit our <a class="orangeLink" href="https://www.devexpress.com/Subscriptions/">Compare Features and Pricing</a> webpage.
+                    </div>
+                    <br>
+                    <div class="text">
+                        If you have any questions or require assistance, call us at
+                        <br>
+                        +1 (818) 844-3383 between 7:30am and 4:30pm Pacific Time
+                        <br>
+                        or email <a class="orangeLink" href="mailto:info@devexpress.com">info@devexpress.com</a>
+                    </div>
+                    <br>
+				    <div class="text">
+                        Download your free <a class="orangeLink" href="https://www.devexpress.com/products/try/">30-day trial</a> today.
+				    </div>
+                    <br>
+					<div class="dxbButton_Metropolis dxbButtonSys dxbTSys" id="HeaderControl_ContactUsControl_btnCloseContact" style="background-color:#F7F7F7;font-size:14px;height:40px;width:420px;-webkit-user-select:none;">
+					<div class="dxb" id="HeaderControl_ContactUsControl_btnCloseContact_CD">
+						<div class="dxb-hbc">
+							<input id="HeaderControl_ContactUsControl_btnCloseContact_I" class="dxb-hb" value="Close" type="submit" name="ctl00$HeaderControl$ContactUsControl$btnCloseContact">
+						</div><span class="dx-vam">Close</span>
+					</div>
+				</div><script id="dxss_142975911" data-executed="true">
+<!--
+ASPx.AddHoverItems('HeaderControl_ContactUsControl_btnCloseContact',[[['dxbButtonHover_Metropolis'],['background-color:#F88E1D;'],[''],['','TC']]]);
+ASPx.AddPressedItems('HeaderControl_ContactUsControl_btnCloseContact',[[['dxbButtonPressed_Metropolis'],[''],[''],['','TC']]]);
+ASPx.AddDisabledItems('HeaderControl_ContactUsControl_btnCloseContact',[[['dxbDisabled_Metropolis'],[''],[''],['','TC']]]);
+ASPx.AddSelectedItems('HeaderControl_ContactUsControl_btnCloseContact',[[['dxbf'],[''],['CD']]]);
+ASPx.createControl(ASPxClientButton,'HeaderControl_ContactUsControl_btnCloseContact','',{'uniqueID':'ctl00$HeaderControl$ContactUsControl$btnCloseContact'},{'Click':function(s, e) { pcContact.Hide(); }});
+
+//-->
+</script>
+			    </div>
+		    
+			</div>
+		</div>
+	</div>
+</div><table id="HeaderControl_ContactUsControl_LP" class="dxpcLoadingPanel_Metropolis dxlpLoadingPanel_Metropolis" style="left:0px;top:0px;z-index:30000;display:none;">
+	<tbody><tr>
+		<td class="dx" style="padding-right:0px;"><img class="dxlp-loadingImage dxlp-imgPosLeft" src="/RWA/DXHotels/DXR.axd?r=1_87-cSB8r" alt="" style="vertical-align:middle;"></td><td class="dx" style="padding-left:0px;"><span id="HeaderControl_ContactUsControl_TL">Loading…</span></td>
+	</tr>
+</tbody></table><div id="HeaderControl_ContactUsControl_LD" class="dxpcLoadingDiv_Metropolis dxlpLoadingDiv_Metropolis dx-ft" style="left:0px;top:0px;z-index:29999;display:none;position:absolute;">
+
+</div><script id="dxss_628621522" data-executed="true">
+<!--
+ASPx.AddHoverItems('HeaderControl_ContactUsControl',[[['dxpc-closeBtnHover'],[''],['HCB-1']]]);
+ASPx.createControl(ASPxClientPopupControl,'HeaderControl_ContactUsControl','pcContact',{'callBack':function(arg) { WebForm_DoCallback('ctl00$HeaderControl$ContactUsControl',arg,ASPx.Callback,'HeaderControl_ContactUsControl',ASPx.CallbackError,true); },'uniqueID':'ctl00$HeaderControl$ContactUsControl','popupAnimationType':'slide','popupHorizontalAlign':'RightSides','popupVerticalAlign':'Below','isPopupPositionCorrectionOn':false,'width':460,'widthFromServer':true,'defaultWindowPopupElementIDList':['HeaderControl_Contact']});
+
+//-->
+</script>
+</div>
+
+            <div>
+                
+    <div class="results-header">
+        <div class="content-column">
+            <div class="map-image">
+                <img class="dxeImage_Metropolis " id="MainContentPlaceHolder_MapImage" src="Content/Maps/London.png" alt="">
+            </div>
+            <h3>London, United Kingdom</h3>
+            <br>
+            <span class="start-filter">Jul 23 - Jul 28, 2023<br>5 nights, 2 rooms, 3 adults, 2 child</span>
+        </div>
+    </div>
+    <div class="content-column results">
+        <div class="results-summary">
+            <span class="dxeBase_Metropolis" id="MainContentPlaceHolder_HotelsResultsLabel" style="color:#F78119;font-size:36px;">RESULTS </span>
+            <span class="dxeBase_Metropolis" id="MainContentPlaceHolder_HotelsCountLabel" style="color:#999999;font-size:36px;">6 HOTELS</span>
+            <input type="hidden" name="ctl00$MainContentPlaceHolder$FilterTokenBox$State" id="MainContentPlaceHolder_FilterTokenBox_State" value="{&quot;tokens&quot;:[&quot;London, United Kingdom&quot;],&quot;values&quot;:[&quot;London&quot;,&quot; United Kingdom&quot;]}"><table class="dxeButtonEditSys dxeButtonEdit_Metropolis token-box dxeTokenBox" id="MainContentPlaceHolder_FilterTokenBox" onclick="return ASPx.ME_MD('MainContentPlaceHolder_FilterTokenBox', event)" style="font-size:16px;width:100%;">
+	<tbody><tr>
+		<td style="display:none;"><input id="MainContentPlaceHolder_FilterTokenBox_ctl02" name="MainContentPlaceHolder_FilterTokenBox_ctl02" type="hidden" value="London, United Kingdom"></td><td class="dxic dxictb" onmousedown="return ASPx.DDMC_MD('MainContentPlaceHolder_FilterTokenBox', event)" style="width:100%;"><span id="MainContentPlaceHolder_FilterTokenBox_Token0" class="dxeToken_Metropolis token" style="max-width: 918px;"><span id="MainContentPlaceHolder_FilterTokenBox_TokenT0" class="dxeTokenText_Metropolis token-text" style="max-width: 897px; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; max-height: none;">London, United Kingdom</span><span id="MainContentPlaceHolder_FilterTokenBox_TokenRB0" title="Remove" class="dxEditors_edtTokenBoxTokenRemoveButton_Metropolis dxeTokenRemoveButton_Metropolis token-remove-button dx-not-acc" onclick="ASPx.TRBClick('MainContentPlaceHolder_FilterTokenBox', event)"></span></span><input class="dxeEditArea_Metropolis dxeEditAreaSys dxeTokenBoxInput_Metropolis token-box-input" id="MainContentPlaceHolder_FilterTokenBox_I" name="ctl00$MainContentPlaceHolder$FilterTokenBox" onchange="ASPx.ETextChanged('MainContentPlaceHolder_FilterTokenBox')" type="text" autocomplete="off" style="width: 10px;"></td>
+	</tr>
+</tbody></table><input type="hidden" name="ctl00$MainContentPlaceHolder$FilterTokenBox$DDDState" id="MainContentPlaceHolder_FilterTokenBox_DDD_State" value="{&amp;quot;windowsState&amp;quot;:&amp;quot;0:0:-1:0:0:0:-10000:-10000:1:0:0:0&amp;quot;}"><div id="MainContentPlaceHolder_FilterTokenBox_DDD_PW-1" class="dxpcDropDown_Metropolis dxpclW dxpc-ddSys dxdd-root" style="z-index:10000;display:none;visibility:hidden;">
+	<div class="dxpc-mainDiv dxdd-list" style="font-size:16px;">
+		<div class="dxpc-contentWrapper">
+			<div class="dxpc-content" id="MainContentPlaceHolder_FilterTokenBox_DDD_PWC-1">
+				<table class="dxeListBox_Metropolis" id="MainContentPlaceHolder_FilterTokenBox_DDD_L" style="font-size:16px;border-collapse:separate;">
+					<tbody><tr>
+						<td style="vertical-align:Top;"><div id="MainContentPlaceHolder_FilterTokenBox_DDD_L_D" class="dxlbd" style="width:100%;overflow-x:hidden;overflow-y:auto;"><div id="MainContentPlaceHolder_FilterTokenBox_DDD_LLBVSTC" style="overflow: hidden; width: 100%; height: 0px;"><div id="MainContentPlaceHolder_FilterTokenBox_DDD_LVirtualScrollTopSpacer"></div>
+							<input id="MainContentPlaceHolder_FilterTokenBox_DDD_L_VI" type="hidden" name="ctl00$MainContentPlaceHolder$FilterTokenBox$DDD$L" value=""><table style="border-collapse:separate;visibility:hidden!important;display:none!important;">
+								<tbody><tr id="MainContentPlaceHolder_FilterTokenBox_DDD_L_LBI-1" class="dxeListBoxItemRow_Metropolis">
+									<td id="MainContentPlaceHolder_FilterTokenBox_DDD_L_LBI-1T0" class="dxeListBoxItem_Metropolis">&nbsp;</td>
+								</tr>
+							</tbody></table><table id="MainContentPlaceHolder_FilterTokenBox_DDD_L_LBT" style="width:100%;border-collapse:separate;">
+								<tbody></tbody></table>
+						</div></div></td>
+					</tr>
+				</tbody></table><script id="dxss_1612536752" data-executed="true">
+<!--
+ASPx.createControl(ASPxClientListBox,'MainContentPlaceHolder_FilterTokenBox_DDD_L','',{'uniqueID':'ctl00$MainContentPlaceHolder$FilterTokenBox$DDD$L','scStates':6,'scPostfix':'Metropolis','isSyncEnabled':false,'isComboBoxList':true,'hasSampleItem':true,'isHasFakeRow':true,'hoverClasses':['dxeListBoxItemHover_Metropolis'],'selectedClasses':['dxeListBoxItemSelected_Metropolis'],'disabledClasses':['dxeDisabled_Metropolis'],'itemsInfo':[]},{'SelectedIndexChanged':function (s, e) { ASPx.CBLBSelectedIndexChanged('MainContentPlaceHolder_FilterTokenBox', e); },'ItemClick':function (s, e) { ASPx.CBLBItemMouseUp('MainContentPlaceHolder_FilterTokenBox', e); }},null,{'decorationStyles':[{'key':'F','className':'dxeFocused_Metropolis','cssText':''}]});
+
+//-->
+</script>
+			</div>
+		</div>
+	</div>
+</div><script id="dxss_1045049952" data-executed="true">
+<!--
+ASPx.AddHoverItems('MainContentPlaceHolder_FilterTokenBox_DDD',[[['dxpc-closeBtnHover'],[''],['HCB-1']]]);
+ASPx.createControl(ASPxClientPopupControl,'MainContentPlaceHolder_FilterTokenBox_DDD','',{'uniqueID':'ctl00$MainContentPlaceHolder$FilterTokenBox$DDD','adjustInnerControlsSizeOnShow':false,'popupAnimationType':'slide','closeAction':'CloseButton','popupHorizontalAlign':'LeftSides','popupVerticalAlign':'Below','isPopupPositionCorrectionOn':false,'shadowVisible':false},{'Shown':function (s, e) { ASPx.DDBPCShown('MainContentPlaceHolder_FilterTokenBox', e); }});
+
+//-->
+</script><span id="MainContentPlaceHolder_FilterTokenBox_Token-1" class="dxeToken_Metropolis token" style="display: none; max-width: 918px;"><span id="MainContentPlaceHolder_FilterTokenBox_TokenT-1" class="dxeTokenText_Metropolis token-text" style="max-width: 897px; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; max-height: none;">Text</span><span id="MainContentPlaceHolder_FilterTokenBox_TokenRB-1" title="Remove" class="dxEditors_edtTokenBoxTokenRemoveButton_Metropolis dxeTokenRemoveButton_Metropolis token-remove-button dx-not-acc" onclick="ASPx.TRBClick('MainContentPlaceHolder_FilterTokenBox', event)"></span></span><script id="dxss_918591347" data-executed="true">
+<!--
+ASPx.createControl(ASPxClientTokenBox,'MainContentPlaceHolder_FilterTokenBox','',{'autoPostBack':true,'uniqueID':'ctl00$MainContentPlaceHolder$FilterTokenBox','autoCompleteAttribute':{'name':'autocomplete','value':'off'},'ddmInput':true,'isDropDownListStyle':false,'lastSuccessValue':'London, United Kingdom','islastSuccessValueInit':true,'allowMouseWheel':false,'tokens':['London, United Kingdom'],'values':['London',' United Kingdom'],'hoverTokenClasses':['dxeTokenHover_Metropolis'],'hoverTokenRemoveButtonClasses':['dxeTokenRemoveButtonHover_Metropolis'],'disabledTokenRemoveButtonClasses':['dxEditors_edtTokenBoxTokenRemoveButtonDisabled_Metropolis']},null,null,{'decorationStyles':[{'key':'F','className':'dxeFocused_Metropolis','cssText':''}]});
+
+//-->
+</script>
+        </div>
+        <div class="results-content">
+            <input type="hidden" name="ctl00$MainContentPlaceHolder$HotelsDataView" id="MainContentPlaceHolder_HotelsDataView_State" value="{&amp;quot;b&amp;quot;:true,&amp;quot;pc&amp;quot;:2,&amp;quot;pi&amp;quot;:0,&amp;quot;ps&amp;quot;:0,&amp;quot;endlessPagingMode&amp;quot;:0,&amp;quot;layout&amp;quot;:0,&amp;quot;aspi&amp;quot;:0,&amp;quot;pageSize&amp;quot;:3,&amp;quot;ic&amp;quot;:6,&amp;quot;pageCount&amp;quot;:2,&amp;quot;pageIndex&amp;quot;:0}"><table class="dxdvControl_Metropolis" id="MainContentPlaceHolder_HotelsDataView" style="width:100%;">
+	<tbody><tr>
+		<td id="MainContentPlaceHolder_HotelsDataView_CCell" class="dxdvCtrl" style="vertical-align:top;"><table style="width:100%;border-collapse:separate;">
+	<tbody><tr>
+		<td id="MainContentPlaceHolder_HotelsDataView_ICell" class="dxdvContent_Metropolis" style="border-style:None;"><table style="height:100%;width:100%;">
+			<tbody><tr>
+				<td class="dxdvItem_Metropolis item dx-al" style="width:247px;vertical-align:Top;">
+                    <div class="hotel-image">
+                        <a class="dxeHyperlink_Metropolis" id="MainContentPlaceHolder_HotelsDataView_IT0_HotelImage_0" href="Details.aspx?location=8&amp;checkin=7-23-2023&amp;checkout=7-28-2023&amp;rooms=2&amp;adults=3&amp;children=2&amp;hotelID=65"><img src="Content/Pictures/London-3.jpg" alt="" style="height:140px;width:140px;"></a>
+                    </div>
+                    <div class="hotel-common">
+                        <a class="dxeHyperlink_Metropolis hotel-title" id="MainContentPlaceHolder_HotelsDataView_IT0_HotelTitleHyperLink_0" href="Details.aspx?location=8&amp;checkin=7-23-2023&amp;checkout=7-28-2023&amp;rooms=2&amp;adults=3&amp;children=2&amp;hotelID=65">Palace Hotel</a>
+                        <div class="hotel-address">
+                            537 Southwark<br>
+                            London SE1 9HH, United Kingdom
+                        </div>
+                        <div class="hotel-stats">
+                            <div class="stat">
+                                TYPE:
+                                <span class="dxeBase_Metropolis" id="MainContentPlaceHolder_HotelsDataView_IT0_HotelClassLabel_0" style="font-size:14px;font-weight:normal;">Platinum</span>
+                            </div>
+                            <div class="stat">
+                                LOCATION:
+                                <span class="dxeBase_Metropolis" id="MainContentPlaceHolder_HotelsDataView_IT0_HotelLocRatingLabel_0" style="font-size:14px;font-weight:normal;">AAA</span>
+                            </div>
+                            <div class="stat">
+                                RATING:
+                                <span class="dxeBase_Metropolis" id="MainContentPlaceHolder_HotelsDataView_IT0_HotelOurRatingLabel_0" style="font-size:14px;font-weight:normal;">5</span>
+                                <img class="dxeImage_Metropolis" id="MainContentPlaceHolder_HotelsDataView_IT0_StarImage_0" src="Content/Images/star.png" alt="">
+                            </div>
+                        </div>
+                        <div id="MainContentPlaceHolder_HotelsDataView_IT0_HotelCustomerRatingControl_0" class="rating-control" style="background-color:#FF8800;height:31px;width:155px;background:#FF8800 url(/RWA/DXHotels/DXR.axd?r=0_2311-dSB8r) repeat-x 0 0px;text-align:left;">
+					<div style="height:31px;width:139px;background:#FF8800 url(/RWA/DXHotels/DXR.axd?r=0_2311-dSB8r) repeat-x 0 -62px;">
+						<div style="height:31px;width:0px;background:#FF8800 url(/RWA/DXHotels/DXR.axd?r=0_2311-dSB8r) repeat-x 0 -93px;">
+
+						</div>
+					</div>
+				<a dxindex="0" href="javascript:void(0)" style="width: 31px; height: 31px; margin-left: 0px; margin-top: -31px; display: block; cursor: default;"></a><a dxindex="1" href="javascript:void(0)" style="width: 31px; height: 31px; margin-left: 31px; margin-top: -31px; display: block; cursor: default;"></a><a dxindex="2" href="javascript:void(0)" style="width: 31px; height: 31px; margin-left: 62px; margin-top: -31px; display: block; cursor: default;"></a><a dxindex="3" href="javascript:void(0)" style="width: 31px; height: 31px; margin-left: 93px; margin-top: -31px; display: block; cursor: default;"></a><a dxindex="4" href="javascript:void(0)" style="width: 31px; height: 31px; margin-left: 124px; margin-top: -31px; display: block; cursor: default;"></a></div><script id="dxss_1036572238" data-executed="true">
+<!--
+ASPx.FillDocumentElementDXThemeCssClassName("Metropolis");
+ASPx.createControl(ASPxClientRatingControl,'MainContentPlaceHolder_HotelsDataView_IT0_HotelCustomerRatingControl_0','',{'uniqueID':'ctl00$MainContentPlaceHolder$HotelsDataView$IT0$TC$HotelCustomerRatingControl','titles':null,'toolTip':null,'fillPrecision':1,'value':4.5,'readOnly':true,'itemCount':5,'itemWidth':31,'itemHeight':31});
+
+//-->
+</script>
+                    </div>
+                    <div class="hotel-right-block">
+                        <div class="price">$389.99</div>
+                        per night<br>
+                        <div class="dxbButton_Metropolis button dxbButtonSys dxbTSys" id="MainContentPlaceHolder_HotelsDataView_IT0_BookItButton_0" style="background-color:#F7F7F7;height:40px;width:110px;-webkit-user-select:none;">
+					<div class="dxb" id="MainContentPlaceHolder_HotelsDataView_IT0_BookItButton_0_CD">
+						<div class="dxb-hbc">
+							<input id="MainContentPlaceHolder_HotelsDataView_IT0_BookItButton_0_I" class="dxb-hb" value="Book It" type="submit" name="ctl00$MainContentPlaceHolder$HotelsDataView$IT0$TC$BookItButton">
+						</div><span class="dx-vam">Book It</span>
+					</div>
+				</div><script id="dxss_250453482" data-executed="true">
+<!--
+ASPx.AddHoverItems('MainContentPlaceHolder_HotelsDataView_IT0_BookItButton_0',[[['dxbButtonHover_Metropolis orange-button-hover'],[''],[''],['','TC']]]);
+ASPx.AddPressedItems('MainContentPlaceHolder_HotelsDataView_IT0_BookItButton_0',[[['dxbButtonPressed_Metropolis'],[''],[''],['','TC']]]);
+ASPx.AddDisabledItems('MainContentPlaceHolder_HotelsDataView_IT0_BookItButton_0',[[['dxbDisabled_Metropolis'],[''],[''],['','TC']]]);
+ASPx.AddSelectedItems('MainContentPlaceHolder_HotelsDataView_IT0_BookItButton_0',[[['dxbf'],[''],['CD']]]);
+ASPx.InitializeSVGSprite();
+ASPx.createControl(ASPxClientButton,'MainContentPlaceHolder_HotelsDataView_IT0_BookItButton_0','',{'autoPostBack':true,'uniqueID':'ctl00$MainContentPlaceHolder$HotelsDataView$IT0$TC$BookItButton','serverEvents':['Click']});
+
+//-->
+</script>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="hotel-description">
+                        The epitome of luxury, the Palace is near all the famous landmarks in the city of London and minutes away from the best shopping in Europe. If you love to be lavished by an amazing staff and want the best guest rooms, then the Palace is the place for you.
+                    </div>
+                </td>
+			</tr>
+		</tbody></table></td>
+	</tr><tr>
+		<td class="dxdvPPSpacing" style="height:8px;"></td>
+	</tr><tr>
+		<td class="dxdvPagerPanel_Metropolis dx-al"><div class="dxpLite_Metropolis pager" id="MainContentPlaceHolder_HotelsDataView_PGB" style="min-width: 197px; display: inline-block; float: none;">
+			<a id="MainContentPlaceHolder_HotelsDataView_PGB_PBF" class="dxp-lead dxp-button dxp-bi" onclick="ASPx.DVPagerClick('MainContentPlaceHolder_HotelsDataView', 'PBF')"><img class="dxWeb_pFirst_Metropolis" src="/RWA/DXHotels/DXR.axd?r=1_87-cSB8r" alt="First"></a><a id="MainContentPlaceHolder_HotelsDataView_PGB_PBP" class="dxp-button dxp-bi" onclick="ASPx.DVPagerClick('MainContentPlaceHolder_HotelsDataView', 'PBP')" style="margin-left:0px;"><img class="dxWeb_pPrev_Metropolis" src="/RWA/DXHotels/DXR.axd?r=1_87-cSB8r" alt="Prev"></a><a class="dxp-num" onclick="ASPx.DVPagerClick('MainContentPlaceHolder_HotelsDataView', 'PN0')" style="margin-left:0px;">1</a><b class="dxp-num dxp-current" style="margin-left:0px;">2</b><b id="MainContentPlaceHolder_HotelsDataView_PGB_PBN" class="dxp-button dxp-bi dxp-disabledButton" style="margin-left:0px;"><img class="dxWeb_pNextDisabled_Metropolis" src="/RWA/DXHotels/DXR.axd?r=1_87-cSB8r" alt="Next"></b><b id="MainContentPlaceHolder_HotelsDataView_PGB_PBL" class="dxp-button dxp-bi dxp-disabledButton" style="margin-left:0px;"><img class="dxWeb_pLastDisabled_Metropolis" src="/RWA/DXHotels/DXR.axd?r=1_87-cSB8r" alt="Last"></b>
+		</div><b class="dx-clear"></b><script id="dxss_1247750010" data-executed="true">
+<!--
+ASPx.AddHoverItems('MainContentPlaceHolder_HotelsDataView_PGB',[[['dxp-hoverButton'],[''],['PBF','PBP']]]);
+ASPx.RemoveHoverItems('MainContentPlaceHolder_HotelsDataView_PGB',[[['PBL','PBN']]]);
+ASPx.createControl(ASPxClientPager,'MainContentPlaceHolder_HotelsDataView_PGB','',{'uniqueID':'ctl00$MainContentPlaceHolder$HotelsDataView$PGB','hasOwnerControl':true,'requireInlineLayout':true,'pageSizeItems':[{'text':'3','value':'3'},{'text':'5','value':'5'},{'text':'10','value':'10'},{'text':'20','value':'20'}],'pageSizeSelectedItem':{'text':'3','value':3}},{'pageSizeChanged':function(s, e) { ASPx.DVPagerClick('MainContentPlaceHolder_HotelsDataView', e.value); }});
+
+//-->
+</script></td>
+	</tr>
+</tbody></table></td>
+	</tr>
+</tbody></table><table id="MainContentPlaceHolder_HotelsDataView_LP" class="dxdvLoadingPanel_Metropolis dxlpLoadingPanel_Metropolis" style="left:0px;top:0px;z-index:30000;display:none;">
+	<tbody><tr>
+		<td class="dx" style="padding-right:0px;"><img class="dxlp-loadingImage dxlp-imgPosLeft" src="/RWA/DXHotels/DXR.axd?r=1_87-cSB8r" alt="" style="vertical-align:middle;"></td><td class="dx" style="padding-left:0px;"><span id="MainContentPlaceHolder_HotelsDataView_TL">Loading…</span></td>
+	</tr>
+</tbody></table><div id="MainContentPlaceHolder_HotelsDataView_LD" class="dxdvLoadingDiv_Metropolis dxlpLoadingDiv_Metropolis dx-ft" style="left:0px;top:0px;z-index:29999;display:none;position:absolute;">
+
+</div><script id="dxss_511460037" data-executed="true">
+<!--
+ASPx.createControl(ASPxClientDataView,'MainContentPlaceHolder_HotelsDataView','',{'callBack':function(arg) { WebForm_DoCallback('ctl00$MainContentPlaceHolder$HotelsDataView',arg,ASPx.Callback,'MainContentPlaceHolder_HotelsDataView',ASPx.CallbackError,true); },'uniqueID':'ctl00$MainContentPlaceHolder$HotelsDataView','stateObject':{'b':true,'pc':2,'pi':0,'ps':0,'endlessPagingMode':0,'layout':0,'aspi':0,'pageSize':3,'ic':6,'pageCount':2,'pageIndex':0}},{'EndCallback':onDataViewEndCallback});
+
+//-->
+</script>
+        </div>
+        <div class="results-filter">
+            <div class="dxflFormLayout_Metropolis" id="MainContentPlaceHolder_FilterFormLayout" style="width:100%;">
+	<table class="dxflGroup_Metropolis dxflGroupSys dxflAGSys" style="border-collapse:separate;">
+		<tbody><tr>
+			<td id="MainContentPlaceHolder_FilterFormLayout_0" class="dxflGroupCell_Metropolis dxflChildInFirstRowSys dxflFirstChildInRowSys dxflLastChildInRowSys" data-left="863.6666870117188"><table class="dxflCLTSys dxflItemSys dxflTextEditItemSys dxflItem_Metropolis item editor-item" style="border-collapse:separate;">
+				<tbody><tr>
+					<td class="dxflHALSys dxflVATSys dxflCaptionCell_Metropolis dxflCaptionCellSys"><label class="dxflCaption_Metropolis caption" for="MainContentPlaceHolder_FilterFormLayout_LocationComboBox_I">Search by City:</label></td>
+				</tr><tr>
+					<td class="dxflNestedControlCell_Metropolis cell" style="width:100%;">
+                                <table class="dxeButtonEditSys dxeButtonEdit_Metropolis editor" id="MainContentPlaceHolder_FilterFormLayout_LocationComboBox" style="border-style:None;height:30px;width:100%;">
+						<tbody><tr>
+							<td style="display:none;"><input id="MainContentPlaceHolder_FilterFormLayout_LocationComboBox_VI" name="MainContentPlaceHolder_FilterFormLayout_LocationComboBox_VI" type="hidden" value="8"></td><td class="dxic" style="width:100%;"><input class="dxeEditArea_Metropolis dxeEditAreaSys" id="MainContentPlaceHolder_FilterFormLayout_LocationComboBox_I" name="ctl00$MainContentPlaceHolder$FilterFormLayout$LocationComboBox" onchange="ASPx.ETextChanged('MainContentPlaceHolder_FilterFormLayout_LocationComboBox')" value="London, United Kingdom" type="text" autocomplete="off"></td><td id="MainContentPlaceHolder_FilterFormLayout_LocationComboBox_B-1" class="dxeButton dxeButtonEditButton_Metropolis" style="-webkit-user-select:none;"><img id="MainContentPlaceHolder_FilterFormLayout_LocationComboBox_B-1Img" src="Content/Images/search.png" alt="v"></td>
+						</tr>
+					</tbody></table><input type="hidden" name="ctl00$MainContentPlaceHolder$FilterFormLayout$LocationComboBox$DDDState" id="MainContentPlaceHolder_FilterFormLayout_LocationComboBox_DDD_State" value="{&amp;quot;windowsState&amp;quot;:&amp;quot;0:0:-1:0:0:0:-10000:-10000:1:0:0:0&amp;quot;}"><div id="MainContentPlaceHolder_FilterFormLayout_LocationComboBox_DDD_PW-1" class="dxpcDropDown_Metropolis dxpclW dxpc-ddSys dxdd-root" style="z-index:10000;display:none;visibility:hidden;">
+						<div class="dxpc-mainDiv dxdd-list dxpc-shadow">
+							<div class="dxpc-contentWrapper">
+								<div class="dxpc-content" id="MainContentPlaceHolder_FilterFormLayout_LocationComboBox_DDD_PWC-1">
+									<table class="dxeListBox_Metropolis" id="MainContentPlaceHolder_FilterFormLayout_LocationComboBox_DDD_L" style="border-collapse:separate;">
+										<tbody><tr>
+											<td style="vertical-align:Top;"><div id="MainContentPlaceHolder_FilterFormLayout_LocationComboBox_DDD_L_D" class="dxlbd" style="width:100%;overflow-x:hidden;overflow-y:auto;"><div id="MainContentPlaceHolder_FilterFormLayout_LocationComboBox_DDD_LLBVSTC" style="overflow: hidden; width: 100%; height: 0px;"><div id="MainContentPlaceHolder_FilterFormLayout_LocationComboBox_DDD_LVirtualScrollTopSpacer"></div>
+												<input id="MainContentPlaceHolder_FilterFormLayout_LocationComboBox_DDD_L_VI" type="hidden" name="ctl00$MainContentPlaceHolder$FilterFormLayout$LocationComboBox$DDD$L" value="8"><table style="border-collapse:separate;visibility:hidden!important;display:none!important;">
+													<tbody><tr id="MainContentPlaceHolder_FilterFormLayout_LocationComboBox_DDD_L_LBI-1" class="dxeListBoxItemRow_Metropolis">
+														<td id="MainContentPlaceHolder_FilterFormLayout_LocationComboBox_DDD_L_LBI-1T0" class="dxeListBoxItem_Metropolis">&nbsp;</td>
+													</tr>
+												</tbody></table><table id="MainContentPlaceHolder_FilterFormLayout_LocationComboBox_DDD_L_LBT" style="width:100%;border-collapse:separate;" class="">
+
+												</table>
+											</div></div></td>
+										</tr>
+									</tbody></table><script id="dxss_1763822368" data-executed="true">
+<!--
+ASPx.createControl(ASPxClientListBox,'MainContentPlaceHolder_FilterFormLayout_LocationComboBox_DDD_L','',{'uniqueID':'ctl00$MainContentPlaceHolder$FilterFormLayout$LocationComboBox$DDD$L','scStates':6,'scPostfix':'Metropolis','savedSelectedIndex':3,'isSyncEnabled':false,'isComboBoxList':true,'hasSampleItem':true,'hoverClasses':['dxeListBoxItemHover_Metropolis'],'selectedClasses':['dxeListBoxItemSelected_Metropolis'],'disabledClasses':['dxeDisabled_Metropolis'],'itemsInfo':[{'value':10,'text':'Hamburg, Germany'},{'value':4,'text':'Honolulu, HI, USA'},{'value':1,'text':'Las Vegas, NV, USA'},{'value':8,'text':'London, United Kingdom'},{'value':2,'text':'Los Angeles, CA, USA'},{'value':6,'text':'Nassau, Bahamas'},{'value':5,'text':'New York City, NY, USA'},{'value':7,'text':'Paris, France'},{'value':9,'text':'Rome, Italy'},{'value':3,'text':'San Francisco, CA, USA'}]},{'SelectedIndexChanged':function (s, e) { ASPx.CBLBSelectedIndexChanged('MainContentPlaceHolder_FilterFormLayout_LocationComboBox', e); },'ItemClick':function (s, e) { ASPx.CBLBItemMouseUp('MainContentPlaceHolder_FilterFormLayout_LocationComboBox', e); }},null,{'decorationStyles':[{'key':'F','className':'dxeFocused_Metropolis','cssText':''}]});
+
+//-->
+</script>
+								</div>
+							</div>
+						</div>
+					</div><script id="dxss_1972830016" data-executed="true">
+<!--
+ASPx.AddHoverItems('MainContentPlaceHolder_FilterFormLayout_LocationComboBox_DDD',[[['dxpc-closeBtnHover'],[''],['HCB-1']]]);
+ASPx.createControl(ASPxClientPopupControl,'MainContentPlaceHolder_FilterFormLayout_LocationComboBox_DDD','',{'uniqueID':'ctl00$MainContentPlaceHolder$FilterFormLayout$LocationComboBox$DDD','adjustInnerControlsSizeOnShow':false,'popupAnimationType':'slide','closeAction':'CloseButton','popupHorizontalAlign':'LeftSides','popupVerticalAlign':'Below','isPopupPositionCorrectionOn':false},{'Shown':function (s, e) { ASPx.DDBPCShown('MainContentPlaceHolder_FilterFormLayout_LocationComboBox', e); }});
+
+//-->
+</script><script id="dxss_1590094235" data-executed="true">
+<!--
+ASPx.AddHoverItems('MainContentPlaceHolder_FilterFormLayout_LocationComboBox',[[['dxeButtonEditButtonHover_Metropolis'],[''],['B-1']]]);
+ASPx.RemoveHoverItems('MainContentPlaceHolder_FilterFormLayout_LocationComboBox',[[['B-100']]]);
+ASPx.AddPressedItems('MainContentPlaceHolder_FilterFormLayout_LocationComboBox',[[['dxeButtonEditButtonPressed_Metropolis'],[''],['B-1']]]);
+ASPx.RemovePressedItems('MainContentPlaceHolder_FilterFormLayout_LocationComboBox',[[['B-100']]]);
+ASPx.createControl(ASPxClientComboBox,'MainContentPlaceHolder_FilterFormLayout_LocationComboBox','',{'uniqueID':'ctl00$MainContentPlaceHolder$FilterFormLayout$LocationComboBox','autoCompleteAttribute':{'name':'autocomplete','value':'off'},'ddmInput':true,'lastSuccessValue':8,'islastSuccessValueInit':true},null,null,{'decorationStyles':[{'key':'F','className':'dxeFocused_Metropolis','cssText':''}]});
+
+//-->
+</script>
+                                
+                            </td>
+				</tr>
+			</tbody></table></td>
+		</tr><tr>
+			<td id="MainContentPlaceHolder_FilterFormLayout_1" class="dxflGroupCell_Metropolis dxflFirstChildInRowSys dxflLastChildInRowSys" data-left="863.6666870117188"><table class="dxflCLTSys dxflItemSys dxflTrackBarItemSys dxflItem_Metropolis item" style="border-collapse:separate;">
+				<tbody><tr>
+					<td class="dxflHALSys dxflVATSys dxflCaptionCell_Metropolis dxflCaptionCellSys"><label class="dxflCaption_Metropolis caption" for="MainContentPlaceHolder_FilterFormLayout_NightlyRateTrackBar_I">Nightly Rate:</label></td>
+				</tr><tr>
+					<td class="dxflNestedControlCell_Metropolis cell" style="width:100%;">
+                                <div class="trackbar-container-lr">
+                                    <div id="NightyRateTrackBarLabel_L" class="trackbar-label-l">$225</div>
+                                    <div id="NightyRateTrackBarLabel_R" class="trackbar-label-r">$899</div>
+                                    <div class="dxeTrackBar_Metropolis trackbar  dxeTBHSys" id="MainContentPlaceHolder_FilterFormLayout_NightlyRateTrackBar" style="height: 25px; width: 100%; visibility: visible;">
+						<div class=" dxeTBHSys  dxeTBContentContainerSys" style="width: 104px; height: 25px;">
+							<div id="MainContentPlaceHolder_FilterFormLayout_NightlyRateTrackBar_T" class="dxeTBTrack_Metropolis dxeFocusedMDHSys" style="width: 98px; left: 3px;">
+								<div id="MainContentPlaceHolder_FilterFormLayout_NightlyRateTrackBar_S" class="dxeTBBarHighlight_Metropolis" style="width: 83px; left: 14px;">
+
+								</div><a title="Drag" class="dxeTBMainDH_Metropolis dxEditors_edtTBMainDH_Metropolis dx-not-acc" href="javascript:;" tabindex="-1" id="MainContentPlaceHolder_FilterFormLayout_NightlyRateTrackBar_MD" style="left: 11px;"><span>Drag</span></a><a title="Drag" class="dxeTBSecondaryDH_Metropolis dxEditors_edtTBSecondaryDH_Metropolis dx-not-acc" href="javascript:;" tabindex="-1" id="MainContentPlaceHolder_FilterFormLayout_NightlyRateTrackBar_SD" style="left: 94px;"><span>Drag</span></a>
+							</div><div class="dxKBSW">
+								<input id="MainContentPlaceHolder_FilterFormLayout_NightlyRateTrackBar_I" class="dxKBSI dx-position-fixed" name="ctl00$MainContentPlaceHolder$FilterFormLayout$NightlyRateTrackBar" value="[110,899]" type="text" readonly="readonly" style="border-width:0;width:0;height:0;padding:0;margin:0;background-color:transparent;display:block;opacity:0;">
+							</div>
+						</div>
+					</div><script id="dxss_1176070543" data-executed="true">
+<!--
+ASPx.AddHoverItems('MainContentPlaceHolder_FilterFormLayout_NightlyRateTrackBar',[[['dxeTBDecBtnHover_Metropolis'],[''],['DB'],,[[{'spriteCssClass':'dxEditors_edtTBDecBtnHover_Metropolis'}]],['']],[['dxeTBIncBtnHover_Metropolis'],[''],['IB'],,[[{'spriteCssClass':'dxEditors_edtTBIncBtnHover_Metropolis'}]],['']],[['dxeTBMainDHHover_Metropolis'],[''],['MD'],,[[{'spriteCssClass':'dxEditors_edtTBMainDHHover_Metropolis'}]],['']],[['dxeTBSecondaryDHHover_Metropolis'],[''],['SD'],,[[{'spriteCssClass':'dxEditors_edtTBSecondaryDHHover_Metropolis'}]],['']]]);
+ASPx.AddPressedItems('MainContentPlaceHolder_FilterFormLayout_NightlyRateTrackBar',[[['dxeTBDecBtnPressed_Metropolis'],[''],['DB'],,[[{'spriteCssClass':'dxEditors_edtTBDecBtnPressed_Metropolis'}]],['']],[['dxeTBIncBtnPressed_Metropolis'],[''],['IB'],,[[{'spriteCssClass':'dxEditors_edtTBIncBtnPressed_Metropolis'}]],['']],[['dxeTBMainDHPressed_Metropolis'],[''],['MD'],,[[{'spriteCssClass':'dxEditors_edtTBMainDHPressed_Metropolis'}]],['']],[['dxeTBSecondaryDHPressed_Metropolis'],[''],['SD'],,[[{'spriteCssClass':'dxEditors_edtTBSecondaryDHPressed_Metropolis'}]],['']]]);
+ASPx.AddDisabledItems('MainContentPlaceHolder_FilterFormLayout_NightlyRateTrackBar',[[['dxeDisabled_Metropolis'],[''],['']],[[''],[''],['DB','IB','MD','SD'],,[[{'spriteCssClass':'dxEditors_edtTBDecBtnDisabled_Metropolis'}],[{'spriteCssClass':'dxEditors_edtTBIncBtnDisabled_Metropolis'}],[{'spriteCssClass':'dxEditors_edtTBMainDHDisabled_Metropolis'}],[{'spriteCssClass':'dxEditors_edtTBSecondaryDHDisabled_Metropolis'}]],['']]]);
+ASPx.createControl(ASPxClientTrackBar,'MainContentPlaceHolder_FilterFormLayout_NightlyRateTrackBar','',{'uniqueID':'ctl00$MainContentPlaceHolder$FilterFormLayout$NightlyRateTrackBar','scStates':2,'scPostfix':'Metropolis','cpLeftLabelID':'NightyRateTrackBarLabel_L','cpRightLabelID':'NightyRateTrackBarLabel_R','cpLabelPrefix':'$','appearValueToolTip':false,'largeTickInterval':50,'maxValue':899,'minValue':110,'scalePosition':'None','smallTickFrequency':5,'step':1,'valueToolTipPosition':'None'},{'Init':updateRatingLabels,'PositionChanging':updateRatingLabels,'PositionChanged':updateRatingLabels},null,{'decorationStyles':[{'key':'F','className':'dxeFocused_Metropolis','cssText':''}]});
+
+//-->
+</script>
+                                </div>
+                            </td>
+				</tr>
+			</tbody></table></td>
+		</tr><tr>
+			<td id="MainContentPlaceHolder_FilterFormLayout_2" class="dxflGroupCell_Metropolis dxflFirstChildInRowSys dxflLastChildInRowSys" data-left="863.6666870117188"><table class="dxflCLTSys dxflItemSys dxflTrackBarItemSys dxflItem_Metropolis item" style="border-collapse:separate;">
+				<tbody><tr>
+					<td class="dxflHALSys dxflVATSys dxflCaptionCell_Metropolis dxflCaptionCellSys"><label class="dxflCaption_Metropolis caption" for="MainContentPlaceHolder_FilterFormLayout_CustomerRatingTrackBar_I">Customer Rating:</label></td>
+				</tr><tr>
+					<td class="dxflNestedControlCell_Metropolis cell" style="width:100%;">
+                                <div class="trackbar-container-r">
+                                    <div id="CustomerRatingTrackbarLabel_R" class="trackbar-label-r">1</div>
+                                    <div class="dxeTrackBar_Metropolis trackbar  dxeTBHSys " id="MainContentPlaceHolder_FilterFormLayout_CustomerRatingTrackBar" style="height: 25px; width: 100%; visibility: visible;">
+						<div class=" dxeTBHSys  dxeTBContentContainerSys" style="width: 148px; height: 25px;">
+							<div id="MainContentPlaceHolder_FilterFormLayout_CustomerRatingTrackBar_T" class="dxeTBTrack_Metropolis" style="width: 142px; left: 3px;">
+								<div id="MainContentPlaceHolder_FilterFormLayout_CustomerRatingTrackBar_S" class="dxeTBBarHighlight_Metropolis" style="width: 1px; left: 0px;">
+
+								</div><a title="Drag" class="dxeTBMainDH_Metropolis dxEditors_edtTBMainDH_Metropolis dx-not-acc" href="javascript:;" tabindex="-1" id="MainContentPlaceHolder_FilterFormLayout_CustomerRatingTrackBar_MD" style="left: -3px;"><span>Drag</span></a>
+							</div><div class="dxKBSW">
+								<input id="MainContentPlaceHolder_FilterFormLayout_CustomerRatingTrackBar_I" class="dxKBSI dx-position-fixed" name="ctl00$MainContentPlaceHolder$FilterFormLayout$CustomerRatingTrackBar" value="[1,1]" type="text" readonly="readonly" style="border-width:0;width:0;height:0;padding:0;margin:0;background-color:transparent;display:block;opacity:0;">
+							</div>
+						</div>
+					</div><script id="dxss_2057785397" data-executed="true">
+<!--
+ASPx.AddHoverItems('MainContentPlaceHolder_FilterFormLayout_CustomerRatingTrackBar',[[['dxeTBDecBtnHover_Metropolis'],[''],['DB'],,[[{'spriteCssClass':'dxEditors_edtTBDecBtnHover_Metropolis'}]],['']],[['dxeTBIncBtnHover_Metropolis'],[''],['IB'],,[[{'spriteCssClass':'dxEditors_edtTBIncBtnHover_Metropolis'}]],['']],[['dxeTBMainDHHover_Metropolis'],[''],['MD'],,[[{'spriteCssClass':'dxEditors_edtTBMainDHHover_Metropolis'}]],['']],[['dxeTBSecondaryDHHover_Metropolis'],[''],['SD'],,[[{'spriteCssClass':'dxEditors_edtTBSecondaryDHHover_Metropolis'}]],['']]]);
+ASPx.AddPressedItems('MainContentPlaceHolder_FilterFormLayout_CustomerRatingTrackBar',[[['dxeTBDecBtnPressed_Metropolis'],[''],['DB'],,[[{'spriteCssClass':'dxEditors_edtTBDecBtnPressed_Metropolis'}]],['']],[['dxeTBIncBtnPressed_Metropolis'],[''],['IB'],,[[{'spriteCssClass':'dxEditors_edtTBIncBtnPressed_Metropolis'}]],['']],[['dxeTBMainDHPressed_Metropolis'],[''],['MD'],,[[{'spriteCssClass':'dxEditors_edtTBMainDHPressed_Metropolis'}]],['']],[['dxeTBSecondaryDHPressed_Metropolis'],[''],['SD'],,[[{'spriteCssClass':'dxEditors_edtTBSecondaryDHPressed_Metropolis'}]],['']]]);
+ASPx.AddDisabledItems('MainContentPlaceHolder_FilterFormLayout_CustomerRatingTrackBar',[[['dxeDisabled_Metropolis'],[''],['']],[[''],[''],['DB','IB','MD','SD'],,[[{'spriteCssClass':'dxEditors_edtTBDecBtnDisabled_Metropolis'}],[{'spriteCssClass':'dxEditors_edtTBIncBtnDisabled_Metropolis'}],[{'spriteCssClass':'dxEditors_edtTBMainDHDisabled_Metropolis'}],[{'spriteCssClass':'dxEditors_edtTBSecondaryDHDisabled_Metropolis'}]],['']]]);
+ASPx.createControl(ASPxClientTrackBar,'MainContentPlaceHolder_FilterFormLayout_CustomerRatingTrackBar','',{'uniqueID':'ctl00$MainContentPlaceHolder$FilterFormLayout$CustomerRatingTrackBar','scStates':2,'scPostfix':'Metropolis','cpRightLabelID':'CustomerRatingTrackbarLabel_R','appearValueToolTip':false,'largeTickInterval':50,'maxValue':5,'minValue':1,'scalePosition':'None','smallTickFrequency':5,'step':1,'valueToolTipPosition':'None'},{'Init':updateRatingLabels,'PositionChanging':updateRatingLabels,'PositionChanged':updateRatingLabels},null,{'decorationStyles':[{'key':'F','className':'dxeFocused_Metropolis','cssText':''}]});
+
+//-->
+</script>
+                                </div>
+                            </td>
+				</tr>
+			</tbody></table></td>
+		</tr><tr>
+			<td id="MainContentPlaceHolder_FilterFormLayout_3" class="dxflGroupCell_Metropolis dxflFirstChildInRowSys dxflLastChildInRowSys" data-left="863.6666870117188"><table class="dxflCLTSys dxflItemSys dxflCheckBoxListItemSys dxflItem_Metropolis item" style="border-collapse:separate;">
+				<tbody><tr>
+					<td class="dxflHALSys dxflVATSys dxflCaptionCell_Metropolis dxflCaptionCellSys"><label class="dxflCaption_Metropolis caption" for="MainContentPlaceHolder_FilterFormLayout_OurRatingCheckBoxList_RB0_I">Our Rating:</label></td>
+				</tr><tr>
+					<td class="dxflNestedControlCell_Metropolis cell">
+                                <table class="dxeCheckBoxList_Metropolis resultrating" id="MainContentPlaceHolder_FilterFormLayout_OurRatingCheckBoxList" style="border-style:None;height:100px;border-collapse:separate;">
+						<tbody><tr>
+							<td class="dxe"><input id="MainContentPlaceHolder_FilterFormLayout_OurRatingCheckBoxList_VI" type="hidden" name="ctl00$MainContentPlaceHolder$FilterFormLayout$OurRatingCheckBoxList" value="1|01|11|21|31|4"><table>
+								<tbody><tr>
+									<td><table class="dxeBase_Metropolis dxeTAR" id="MainContentPlaceHolder_FilterFormLayout_OurRatingCheckBoxList_RB0">
+										<tbody><tr>
+											<td class="dxichCellSys"><span class=" dxICheckBox_Metropolis dxichSys dx-not-acc dxWeb_edtCheckBoxChecked_Metropolis" id="MainContentPlaceHolder_FilterFormLayout_OurRatingCheckBoxList_RB0_I_D"><span class="dxKBSW"><input id="MainContentPlaceHolder_FilterFormLayout_OurRatingCheckBoxList_RB0_I" class="dxKBSI dx-position-fixed" name="ctl00$MainContentPlaceHolder$FilterFormLayout$OurRatingCheckBoxList$RB0" value="C" type="text" readonly="readonly" style="border-width:0;width:0;height:0;padding:0;margin:0;background-color:transparent;display:block;opacity:0;"></span></span></td><td class="dxichTextCellSys"><label class="dx-wrap"><img src="Content/Images/star1.png" alt=""></label></td>
+										</tr>
+									</tbody></table></td>
+								</tr><tr>
+									<td><table class="dxeBase_Metropolis dxeTAR" id="MainContentPlaceHolder_FilterFormLayout_OurRatingCheckBoxList_RB1">
+										<tbody><tr>
+											<td class="dxichCellSys"><span class=" dxICheckBox_Metropolis dxichSys dx-not-acc dxWeb_edtCheckBoxChecked_Metropolis" id="MainContentPlaceHolder_FilterFormLayout_OurRatingCheckBoxList_RB1_I_D"><span class="dxKBSW"><input id="MainContentPlaceHolder_FilterFormLayout_OurRatingCheckBoxList_RB1_I" class="dxKBSI" name="ctl00$MainContentPlaceHolder$FilterFormLayout$OurRatingCheckBoxList$RB1" value="C" type="text" readonly="readonly" style="border-width:0;width:0;height:0;padding:0;margin:0;background-color:transparent;display:block;opacity:0;"></span></span></td><td class="dxichTextCellSys"><label class="dx-wrap"><img src="Content/Images/star2.png" alt=""></label></td>
+										</tr>
+									</tbody></table></td>
+								</tr><tr>
+									<td><table class="dxeBase_Metropolis dxeTAR" id="MainContentPlaceHolder_FilterFormLayout_OurRatingCheckBoxList_RB2">
+										<tbody><tr>
+											<td class="dxichCellSys"><span class=" dxICheckBox_Metropolis dxichSys dx-not-acc dxWeb_edtCheckBoxChecked_Metropolis" id="MainContentPlaceHolder_FilterFormLayout_OurRatingCheckBoxList_RB2_I_D"><span class="dxKBSW"><input id="MainContentPlaceHolder_FilterFormLayout_OurRatingCheckBoxList_RB2_I" class="dxKBSI" name="ctl00$MainContentPlaceHolder$FilterFormLayout$OurRatingCheckBoxList$RB2" value="C" type="text" readonly="readonly" style="border-width:0;width:0;height:0;padding:0;margin:0;background-color:transparent;display:block;opacity:0;"></span></span></td><td class="dxichTextCellSys"><label class="dx-wrap"><img src="Content/Images/star3.png" alt=""></label></td>
+										</tr>
+									</tbody></table></td>
+								</tr><tr>
+									<td><table class="dxeBase_Metropolis dxeTAR" id="MainContentPlaceHolder_FilterFormLayout_OurRatingCheckBoxList_RB3">
+										<tbody><tr>
+											<td class="dxichCellSys"><span class=" dxICheckBox_Metropolis dxichSys dx-not-acc dxWeb_edtCheckBoxChecked_Metropolis" id="MainContentPlaceHolder_FilterFormLayout_OurRatingCheckBoxList_RB3_I_D"><span class="dxKBSW"><input id="MainContentPlaceHolder_FilterFormLayout_OurRatingCheckBoxList_RB3_I" class="dxKBSI" name="ctl00$MainContentPlaceHolder$FilterFormLayout$OurRatingCheckBoxList$RB3" value="C" type="text" readonly="readonly" style="border-width:0;width:0;height:0;padding:0;margin:0;background-color:transparent;display:block;opacity:0;"></span></span></td><td class="dxichTextCellSys"><label class="dx-wrap"><img src="Content/Images/star4.png" alt=""></label></td>
+										</tr>
+									</tbody></table></td>
+								</tr><tr>
+									<td><table class="dxeBase_Metropolis dxeTAR" id="MainContentPlaceHolder_FilterFormLayout_OurRatingCheckBoxList_RB4">
+										<tbody><tr>
+											<td class="dxichCellSys"><span class=" dxICheckBox_Metropolis dxichSys dx-not-acc dxWeb_edtCheckBoxChecked_Metropolis" id="MainContentPlaceHolder_FilterFormLayout_OurRatingCheckBoxList_RB4_I_D"><span class="dxKBSW"><input id="MainContentPlaceHolder_FilterFormLayout_OurRatingCheckBoxList_RB4_I" class="dxKBSI" name="ctl00$MainContentPlaceHolder$FilterFormLayout$OurRatingCheckBoxList$RB4" value="C" type="text" readonly="readonly" style="border-width:0;width:0;height:0;padding:0;margin:0;background-color:transparent;display:block;opacity:0;"></span></span></td><td class="dxichTextCellSys"><label class="dx-wrap"><img src="Content/Images/star5.png" alt=""></label></td>
+										</tr>
+									</tbody></table></td>
+								</tr>
+							</tbody></table></td>
+						</tr>
+					</tbody></table><script id="dxss_219366466" data-executed="true">
+<!--
+ASPx.createControl(ASPxClientCheckBoxList,'MainContentPlaceHolder_FilterFormLayout_OurRatingCheckBoxList','',{'uniqueID':'ctl00$MainContentPlaceHolder$FilterFormLayout$OurRatingCheckBoxList','savedSelectedIndex':0,'imageProperties':{'4':['dxWeb_edtCheckBoxChecked_Metropolis','dxWeb_edtCheckBoxUnchecked_Metropolis'],'8':['dxWeb_edtCheckBoxCheckedDisabled_Metropolis','dxWeb_edtCheckBoxUncheckedDisabled_Metropolis']},'icbFocusedStyle':['dxICBFocused_Metropolis',''],'initSelectedIndices':[0,1,2,3,4]},null,null,{'decorationStyles':[{'key':'F','className':'dxeFocused_Metropolis','cssText':''}],'items':[['',1,'~/Content/Images/star1.png'],['',2,'~/Content/Images/star2.png'],['',3,'~/Content/Images/star3.png'],['',4,'~/Content/Images/star4.png'],['',5,'~/Content/Images/star5.png']]});
+
+//-->
+</script>
+                            </td>
+				</tr>
+			</tbody></table></td>
+		</tr><tr>
+			<td id="MainContentPlaceHolder_FilterFormLayout_4" class="dxflGroupCell_Metropolis dxflFirstChildInRowSys dxflLastChildInRowSys" data-left="863.6666870117188"><table class="dxflCLTSys dxflItemSys dxflTextEditItemSys dxflItem_Metropolis item editor-item" style="border-collapse:separate;">
+				<tbody><tr>
+					<td class="dxflHALSys dxflVATSys dxflCaptionCell_Metropolis dxflCaptionCellSys"><label class="dxflCaption_Metropolis caption" for="MainContentPlaceHolder_FilterFormLayout_LocationRatingComboBox_I">Location:</label></td>
+				</tr><tr>
+					<td class="dxflNestedControlCell_Metropolis cell">
+                                <table class="dxeButtonEditSys dxeButtonEdit_Metropolis editor" id="MainContentPlaceHolder_FilterFormLayout_LocationRatingComboBox" style="border-style:None;height:30px;width:200px;">
+						<tbody><tr>
+							<td style="display:none;"><input id="MainContentPlaceHolder_FilterFormLayout_LocationRatingComboBox_VI" name="MainContentPlaceHolder_FilterFormLayout_LocationRatingComboBox_VI" type="hidden" value="BBB"></td><td class="dxic" style="width:100%;"><input class="dxeEditArea_Metropolis dxeEditAreaSys" id="MainContentPlaceHolder_FilterFormLayout_LocationRatingComboBox_I" name="ctl00$MainContentPlaceHolder$FilterFormLayout$LocationRatingComboBox" onchange="ASPx.ETextChanged('MainContentPlaceHolder_FilterFormLayout_LocationRatingComboBox')" value="BBB" type="text" autocomplete="off"></td><td id="MainContentPlaceHolder_FilterFormLayout_LocationRatingComboBox_B-1" class="dxeButton dxeButtonEditButton_Metropolis" style="-webkit-user-select:none;"><img id="MainContentPlaceHolder_FilterFormLayout_LocationRatingComboBox_B-1Img" class="dxEditors_edtDropDown_Metropolis" src="/RWA/DXHotels/DXR.axd?r=1_87-cSB8r" alt="v"></td>
+						</tr>
+					</tbody></table><input type="hidden" name="ctl00$MainContentPlaceHolder$FilterFormLayout$LocationRatingComboBox$DDDState" id="MainContentPlaceHolder_FilterFormLayout_LocationRatingComboBox_DDD_State" value="{&amp;quot;windowsState&amp;quot;:&amp;quot;0:0:-1:0:0:0:-10000:-10000:1:0:0:0&amp;quot;}"><div id="MainContentPlaceHolder_FilterFormLayout_LocationRatingComboBox_DDD_PW-1" class="dxpcDropDown_Metropolis dxpclW dxpc-ddSys dxdd-root" style="z-index:10000;display:none;visibility:hidden;">
+						<div class="dxpc-mainDiv dxdd-list dxpc-shadow">
+							<div class="dxpc-contentWrapper">
+								<div class="dxpc-content" id="MainContentPlaceHolder_FilterFormLayout_LocationRatingComboBox_DDD_PWC-1">
+									<table class="dxeListBox_Metropolis" id="MainContentPlaceHolder_FilterFormLayout_LocationRatingComboBox_DDD_L" style="border-collapse:separate;">
+										<tbody><tr>
+											<td style="vertical-align:Top;"><div id="MainContentPlaceHolder_FilterFormLayout_LocationRatingComboBox_DDD_L_D" class="dxlbd" style="width:100%;overflow-x:hidden;overflow-y:auto;"><div id="MainContentPlaceHolder_FilterFormLayout_LocationRatingComboBox_DDD_LLBVSTC" style="overflow: hidden; width: 100%; height: 0px;"><div id="MainContentPlaceHolder_FilterFormLayout_LocationRatingComboBox_DDD_LVirtualScrollTopSpacer"></div>
+												<input id="MainContentPlaceHolder_FilterFormLayout_LocationRatingComboBox_DDD_L_VI" type="hidden" name="ctl00$MainContentPlaceHolder$FilterFormLayout$LocationRatingComboBox$DDD$L" value="BBB"><table style="border-collapse:separate;visibility:hidden!important;display:none!important;">
+													<tbody><tr id="MainContentPlaceHolder_FilterFormLayout_LocationRatingComboBox_DDD_L_LBI-1" class="dxeListBoxItemRow_Metropolis">
+														<td id="MainContentPlaceHolder_FilterFormLayout_LocationRatingComboBox_DDD_L_LBI-1T0" class="dxeListBoxItem_Metropolis">&nbsp;</td>
+													</tr>
+												</tbody></table><table id="MainContentPlaceHolder_FilterFormLayout_LocationRatingComboBox_DDD_L_LBT" style="width:100%;border-collapse:separate;" class="">
+
+												</table>
+											</div></div></td>
+										</tr>
+									</tbody></table><script id="dxss_1676488955" data-executed="true">
+<!--
+ASPx.createControl(ASPxClientListBox,'MainContentPlaceHolder_FilterFormLayout_LocationRatingComboBox_DDD_L','',{'uniqueID':'ctl00$MainContentPlaceHolder$FilterFormLayout$LocationRatingComboBox$DDD$L','scStates':6,'scPostfix':'Metropolis','savedSelectedIndex':3,'isSyncEnabled':false,'isComboBoxList':true,'hasSampleItem':true,'hoverClasses':['dxeListBoxItemHover_Metropolis'],'selectedClasses':['dxeListBoxItemSelected_Metropolis'],'disabledClasses':['dxeDisabled_Metropolis'],'itemsInfo':[{'value':'AAA','text':'AAA'},{'value':'AA','text':'AA'},{'value':'A','text':'A'},{'value':'BBB','text':'BBB'}]},{'SelectedIndexChanged':function (s, e) { ASPx.CBLBSelectedIndexChanged('MainContentPlaceHolder_FilterFormLayout_LocationRatingComboBox', e); },'ItemClick':function (s, e) { ASPx.CBLBItemMouseUp('MainContentPlaceHolder_FilterFormLayout_LocationRatingComboBox', e); }},null,{'decorationStyles':[{'key':'F','className':'dxeFocused_Metropolis','cssText':''}]});
+
+//-->
+</script>
+								</div>
+							</div>
+						</div>
+					</div><script id="dxss_1780284058" data-executed="true">
+<!--
+ASPx.AddHoverItems('MainContentPlaceHolder_FilterFormLayout_LocationRatingComboBox_DDD',[[['dxpc-closeBtnHover'],[''],['HCB-1']]]);
+ASPx.createControl(ASPxClientPopupControl,'MainContentPlaceHolder_FilterFormLayout_LocationRatingComboBox_DDD','',{'uniqueID':'ctl00$MainContentPlaceHolder$FilterFormLayout$LocationRatingComboBox$DDD','adjustInnerControlsSizeOnShow':false,'popupAnimationType':'slide','closeAction':'CloseButton','popupHorizontalAlign':'LeftSides','popupVerticalAlign':'Below','isPopupPositionCorrectionOn':false},{'Shown':function (s, e) { ASPx.DDBPCShown('MainContentPlaceHolder_FilterFormLayout_LocationRatingComboBox', e); }});
+
+//-->
+</script><script id="dxss_1586899263" data-executed="true">
+<!--
+ASPx.AddHoverItems('MainContentPlaceHolder_FilterFormLayout_LocationRatingComboBox',[[['dxeButtonEditButtonHover_Metropolis'],[''],['B-1']]]);
+ASPx.RemoveHoverItems('MainContentPlaceHolder_FilterFormLayout_LocationRatingComboBox',[[['B-100']]]);
+ASPx.AddPressedItems('MainContentPlaceHolder_FilterFormLayout_LocationRatingComboBox',[[['dxeButtonEditButtonPressed_Metropolis'],[''],['B-1']]]);
+ASPx.RemovePressedItems('MainContentPlaceHolder_FilterFormLayout_LocationRatingComboBox',[[['B-100']]]);
+ASPx.createControl(ASPxClientComboBox,'MainContentPlaceHolder_FilterFormLayout_LocationRatingComboBox','',{'uniqueID':'ctl00$MainContentPlaceHolder$FilterFormLayout$LocationRatingComboBox','autoCompleteAttribute':{'name':'autocomplete','value':'off'},'ddmInput':true,'lastSuccessValue':'BBB','islastSuccessValueInit':true},null,null,{'decorationStyles':[{'key':'F','className':'dxeFocused_Metropolis','cssText':''}]});
+
+//-->
+</script>
+                            </td>
+				</tr>
+			</tbody></table></td>
+		</tr><tr>
+			<td id="MainContentPlaceHolder_FilterFormLayout_5" class="dxflGroupCell_Metropolis dxflFirstChildInRowSys dxflLastChildInRowSys dxflLastChildSys dxflChildInLastRowSys" data-left="863.6666870117188"><table class="dxflCLTSys dxflItemSys dxflButtonItemSys dxflItem_Metropolis item button-item" style="border-collapse:separate;">
+				<tbody><tr>
+					<td class="dxflHALSys dxflVATSys dxflCaptionCell_Metropolis dxflCaptionCellSys"><label class="dxflCaption_Metropolis caption" for="MainContentPlaceHolder_FilterFormLayout_ApplyFilterButton_I"></label></td>
+				</tr><tr>
+					<td class="dxflNestedControlCell_Metropolis cell">
+                                <div class="dxbButton_Metropolis dxbButtonSys dxbTSys" id="MainContentPlaceHolder_FilterFormLayout_ApplyFilterButton" style="font-size:14px;width:100%;-webkit-user-select:none;">
+						<div class="dxb" id="MainContentPlaceHolder_FilterFormLayout_ApplyFilterButton_CD">
+							<div class="dxb-hbc">
+								<input id="MainContentPlaceHolder_FilterFormLayout_ApplyFilterButton_I" class="dxb-hb" value="APPLY" type="submit" name="ctl00$MainContentPlaceHolder$FilterFormLayout$ApplyFilterButton">
+							</div><span class="dx-vam">APPLY</span>
+						</div>
+					</div><script id="dxss_1697362005" data-executed="true">
+<!--
+ASPx.AddHoverItems('MainContentPlaceHolder_FilterFormLayout_ApplyFilterButton',[[['dxbButtonHover_Metropolis'],[''],[''],['','TC']]]);
+ASPx.AddPressedItems('MainContentPlaceHolder_FilterFormLayout_ApplyFilterButton',[[['dxbButtonPressed_Metropolis'],[''],[''],['','TC']]]);
+ASPx.AddSelectedItems('MainContentPlaceHolder_FilterFormLayout_ApplyFilterButton',[[['dxbf'],[''],['CD']]]);
+ASPx.createControl(ASPxClientButton,'MainContentPlaceHolder_FilterFormLayout_ApplyFilterButton','',{'autoPostBack':true,'uniqueID':'ctl00$MainContentPlaceHolder$FilterFormLayout$ApplyFilterButton','serverEvents':['Click']});
+
+//-->
+</script>
+                            </td>
+				</tr>
+			</tbody></table></td>
+		</tr>
+	</tbody></table>
+</div><script id="dxss_1761385958" data-executed="true">
+<!--
+ASPx.createControl(ASPxClientFormLayout,'MainContentPlaceHolder_FilterFormLayout','',{'uniqueID':'ctl00$MainContentPlaceHolder$FilterFormLayout'});
+
+//-->
+</script>
+        </div>
+        <div style="clear: both"></div>
+    </div>
+
+            </div>
+            <div class="footer">
+                <div class="columns content-column">
+                    <div class="column rightBorder">
+                        <h5>Getting Started Today</h5>
+                        <div class="text">The DevExpress ASP.NET Subscription includes 110+ WebForm Controls and 70+ MVC Extensions.</div>
+                        <div class="text"><a class="orangeLink" href="https://www.devexpress.com/products/try/">Download your free 30-day trial</a></div>
+                    </div>
+                    <div class="column rightBorder">
+                        <h5>We Are Here To Help</h5>
+                        <div class="text">Tell us how we can help you build the next great asp.net web app.</div>
+                        <div class="text"><a class="orangeLink" href="mailto:info@devexpress.com">info@devexpress.com</a></div>
+                    </div>
+                    <div class="column">
+                        <h5>The Following DevExpress ASP.NET Controls Were Used On This Page</h5>
+                        <div class="text">
+                            
+    ASP.NET Data View Control<br>
+    ASP.NET Data Editors Library<br>
+    ASP.NET Rating Control
+
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="info">
+                    <div class="content-column">
+                        <div class="copyright">
+                            Copyright (c) 2023 Developer Express Inc.<br>This website demonstrates use of DevExpress ASP.NET Controls. Hotel rooms cannot be booked using this website.
+                        </div>
+                        <div class="logo">
+                            <a class="dxeHyperlink_Metropolis" id="DevExpressHyperLink" href="http://www.devexpress.com/" style="height:35px;width:172px;display:inline-block;"><img src="Content/Images/172x35.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+
+var callBackFrameUrl='/RWA/DXHotels/WebResource.axd?d=beToSAE3vdsL1QUQUxjWdXGrZ25AemV3tnKuLls1xcPoIiLMHUbVW55pccpEM-HXAyEYKg2&t=638188629102382993';
+WebForm_InitCallback();//]]>
+</script>
+<input type="hidden" name="DXScript" value="1_9,1_10,1_253,1_21,1_62,1_11,1_12,1_13,1_180,1_15,1_39,1_58,1_181,1_182,1_201,1_19,1_20,1_188,1_184,1_191,1_189,1_37,1_29,1_48,1_202"><input type="hidden" name="DXCss" value="1_66,1_67,1_207,0_2211,0_2206,0_2313,0_2318,1_208,1_72,1_71"></form><script type="text/javascript" id="">var SearchCanaryWatcher=function(){function c(){this.COOKIE_KEY="DevExpressNewSearchCanary";this.GlobalSearchAvailabilityPercent=10;this.watchCookie()}c.prototype.watchCookie=function(){var a=this.getCookie(this.COOKIE_KEY),b=Math.floor(100*Math.random());a&&a.length?(a=parseInt(a),0<a&&a<this.GlobalSearchAvailabilityPercent?(a=this.GlobalSearchAvailabilityPercent,this.setCookie(this.COOKIE_KEY,a.toString(),60)):b<=this.GlobalSearchAvailabilityPercent&&this.GlobalSearchAvailabilityPercent>Math.abs(a)&&
+(a=this.GlobalSearchAvailabilityPercent,this.setCookie(this.COOKIE_KEY,a.toString(),60))):(a=b<=this.GlobalSearchAvailabilityPercent?this.GlobalSearchAvailabilityPercent:-this.GlobalSearchAvailabilityPercent,this.setCookie(this.COOKIE_KEY,a.toString(),60))};c.prototype.setCookie=function(a,b,e){var d=new Date;d.setTime(d.getTime()+864E5*e);document.cookie=a+"\x3d"+b+"; expires\x3d"+d.toUTCString()+"; path\x3d/; domain\x3d.devexpress.com; samesite\x3dlax;"};c.prototype.getCookie=function(a){var b=
+"; "+document.cookie;a=b.split("; "+a+"\x3d");if(2==a.length)return a.pop().split(";").shift()};return c}();new SearchCanaryWatcher;</script>
+<script type="text/javascript" id="">var _paq=window._paq=window._paq||[];_paq.push(["setUserId",google_tag_manager["rm"]["6917487"](3)]);_paq.push(["setCookieDomain","*.devexpress.com"]);_paq.push(["setDomains","*.devexpress.com"]);_paq.push(["trackPageView"]);_paq.push(["enableLinkTracking"]);_paq.push(["setSecureCookie",!0]);
+(function(){var c="//matomo.devexpress.com/";_paq.push(["setTrackerUrl",c+"matomo.php"]);_paq.push(["setSiteId","3"]);var a=document,b=a.createElement("script");a=a.getElementsByTagName("script")[0];b.type="text/javascript";b.async=!0;b.src=c+"matomo.js";a.parentNode.insertBefore(b,a)})();</script>
+
+
+
+
+</body></html>
